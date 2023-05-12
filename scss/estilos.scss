@@ -1,0 +1,14 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//imports
+@import "html-generales/header";
+@import "html-generales/h1";
+@import "html-main/nosotros";
+@import "html-main/menu";
+@import "html-generales/footer";
+@import "media-queries/desktop";

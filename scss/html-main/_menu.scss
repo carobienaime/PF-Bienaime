@@ -1,0 +1,62 @@
+/*estilos del main de la Seccion Menu - version mobile*/
+
+//imports
+@import "../utilidades/extend";
+@import "../utilidades/mixin";
+
+main{
+    .cont-menu{
+        @include flex2;
+        gap: 2rem;
+        margin-top: 1.1rem;
+        margin-bottom: 1.1rem;
+
+        .cont-menu2{
+            @include flex3;
+            
+            .h2-secc{
+                @extend %h2-secc;
+            }
+            
+            .lista-menu{
+                list-style: none;
+                @include flex2;
+                gap: 1rem;
+                margin-bottom: 0;
+                padding-left: 0;
+                .item-lista-menu{
+                    @include flex2;
+                    .nombre-plato{
+                        font-weight: 600;
+                        margin-bottom: 0;
+                        padding: 0.5rem;
+                        color: $color-font-text;
+                    }
+                    .descrip-plato{
+                        font-style: oblique;
+                        color: $color-font-text;
+                        margin-bottom: 0;
+                    }
+
+                }
+            }
+        }
+        .cont-h2-menu{
+            @include padding-mobile;
+        }
+
+    }
+
+    .galeria-menu{
+        @include flex2;
+        gap: 1rem;
+        @include margin-mobile;
+        margin-bottom: 1rem;
+        .img-menu{
+            @include img(100%, 100%);
+        }
+    }
+
+}
+
+

@@ -1,0 +1,30 @@
+//imports
+
+@import "variables";
+@import "mixin";
+
+
+%display-none{
+    display: none;
+}
+
+%flex1{
+    @include flex1;
+}
+
+%flex3{
+    @include flex3;
+}
+
+%h2-secc{
+    margin-bottom: 0;
+    color: $color-font-text;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+%h3-footer{
+    font-size: 1rem;
+    color: $color-font-secc;
+    margin-bottom: 0;
+}
