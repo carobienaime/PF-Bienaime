@@ -9,19 +9,19 @@ header nav div a img {
   width: 144px;
   height: 95px; }
 
-header nav div .menu-hamburguesa {
-  border-color: tomato; }
-  header nav div .menu-hamburguesa:focus {
-    box-shadow: none; }
+header nav div .menu-hamburguesa:focus {
+  box-shadow: none; }
 
 header nav div div ul li .font-nav {
-  color: black;
-  font-weight: bold;
-  font-size: 1rem; }
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-weight: 550;
+  font-size: 0.8rem;
+  color: #151515; }
 
 /*estilos del titulo principal de las secciones - version mobile*/
 main .cont-secc {
-  background-color: #052b64;
+  background-color: #12223D;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   display: flex;
@@ -56,7 +56,7 @@ main .main-nosotros .cont-h2-p-nos .h2-secc, main .cont-menu .cont-menu2 .h2-sec
 
 footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
   font-size: 1rem;
-  color: white;
+  color: #dee0e5;
   margin-bottom: 0; }
 
 main .main-nosotros {
@@ -129,7 +129,7 @@ main .main-nosotros .cont-h2-p-nos .h2-secc, main .cont-menu .cont-menu2 .h2-sec
 
 footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
   font-size: 1rem;
-  color: white;
+  color: #dee0e5;
   margin-bottom: 0; }
 
 main .cont-menu {
@@ -210,11 +210,11 @@ main .main-nosotros .cont-h2-p-nos .h2-secc, main .cont-menu .cont-menu2 .h2-sec
 
 footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
   font-size: 1rem;
-  color: white;
+  color: #dee0e5;
   margin-bottom: 0; }
 
 footer .sections-footer {
-  background-color: #052b64;
+  background-color: #12223D;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -225,7 +225,7 @@ footer .sections-footer {
   footer .sections-footer .redes-footer .iconos-redes {
     gap: 1rem; }
     footer .sections-footer .redes-footer .iconos-redes .icono-red {
-      color: white;
+      color: black;
       font-size: 1.5rem; }
   footer .sections-footer .newsletter-footer form fieldset {
     display: flex;
@@ -244,7 +244,7 @@ footer .sections-footer {
       font-size: 0.8rem; }
 
 footer .derechos-footer {
-  background-color: #516f9b;
+  background-color: pink;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -252,17 +252,21 @@ footer .derechos-footer {
   padding-bottom: 0.5rem; }
   footer .derechos-footer .p-footer {
     margin-bottom: 0;
-    color: white;
+    color: black;
     font-size: 0.8rem; }
 
-/*estilos para version desktop*/
-@media screen and (min-width: 1024px) {
+/*estilos para version tablet horizontal y desktop*/
+@media screen and (min-width: 992px) {
   /*estilos del header de mi sitio web*/
+  header nav div a img {
+    width: 160px;
+    height: 105px; }
   header nav div div ul li .font-nav {
-    font-size: 1.1rem; }
+    font-weight: 600;
+    font-size: 1rem; }
     header nav div div ul li .font-nav:hover {
-      color: black;
-      border-bottom: 3px solid #052b64; }
+      color: #151515;
+      border-bottom: 2px solid #12223D; }
   /*estilos del titulo principal de las secciones*/
   main .cont-secc .titulo-secc {
     font-size: 1.8rem; }
@@ -334,7 +338,7 @@ footer .derechos-footer {
       gap: 0.8rem; }
       footer .sections-footer .ubicacion-footer .h3-footer {
         font-size: 1rem;
-        color: white;
+        color: #dee0e5;
         margin-bottom: 0; }
       footer .sections-footer .ubicacion-footer .p-ubicacion {
         display: flex;
@@ -343,7 +347,7 @@ footer .derechos-footer {
         align-items: flex-start; }
         footer .sections-footer .ubicacion-footer .p-ubicacion .p-secc-footer {
           margin-bottom: 0;
-          color: white;
+          color: #c8ccd5;
           font-size: 0.9rem; }
     footer .sections-footer .contacto-footer {
       display: block;
@@ -354,7 +358,7 @@ footer .derechos-footer {
       gap: 0.8rem; }
       footer .sections-footer .contacto-footer .h3-footer {
         font-size: 1rem;
-        color: white;
+        color: #dee0e5;
         margin-bottom: 0; }
       footer .sections-footer .contacto-footer .p-contacto {
         display: flex;
@@ -363,7 +367,7 @@ footer .derechos-footer {
         align-items: center; }
         footer .sections-footer .contacto-footer .p-contacto .p-secc-footer {
           margin-bottom: 0;
-          color: white;
+          color: #c8ccd5;
           font-size: 0.9rem; }
     footer .sections-footer .newsletter-footer form fieldset .input-newsletter {
       font-size: 0.9rem; }

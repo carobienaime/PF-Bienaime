@@ -31,7 +31,7 @@ footer {
                 gap: 1rem;
 
                 .icono-red {
-                    color: $color-font-secc;
+                    color: black;
                     font-size: 1.5rem;
                 }
             }
@@ -82,12 +82,12 @@ footer {
     }
 
     .derechos-footer {
-        background-color: $color-secundario;
+        background-color: pink;
         @include flex1;
         @include padding-mobile;
         .p-footer{
             margin-bottom: 0;
-            color: $color-font-secc;
+            color: black;
             font-size: 0.8rem;
         }
     }

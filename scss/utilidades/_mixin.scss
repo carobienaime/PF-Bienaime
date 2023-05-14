@@ -32,13 +32,13 @@
 
 @mixin h3-footer{
     font-size: 1rem;
-    color: $color-font-secc;
+    color: $color-h3-footer;
     margin-bottom: 0;
 }
 
 @mixin p-secc-footer{
     margin-bottom: 0;
-    color: $color-font-secc;
+    color: $color-p-footer;
     font-size: 0.9rem;
 }
 

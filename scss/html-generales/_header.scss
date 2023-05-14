@@ -1,3 +1,7 @@
+//imports
+
+@import "../utilidades/variables";
+
 /*estilos del header de mi sitio web - version mobile*/
 
 header {
@@ -10,22 +14,19 @@ header {
                 }
             }
 
-            .menu-hamburguesa {
-                border-color: tomato;
-
-                &:focus {
-                    box-shadow: none;
-                }
-
+            .menu-hamburguesa:focus {
+                box-shadow: none;
             }
 
             div {
                 ul {
                     li {
                         .font-nav {
-                            color: black;
-                            font-weight: bold;
-                            font-size: 1rem;
+                            font-family: 'Playfair Display', serif;
+                            text-transform: uppercase;
+                            font-weight: 550;
+                            font-size: 0.8rem;
+                            color: $color-txt1;                                                        
                         }
                     }
                 }
