@@ -20,13 +20,18 @@
 }
 
 @mixin padding-mobile{
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
 }
 
 @mixin margin-mobile{
     margin-left: 1.2rem;
     margin-right: 1.2rem;
+}
+
+@mixin padding-desktop{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 

@@ -1,0 +1,18 @@
+/*estilos para version tablet vertical*/
+
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
+@media screen and (min-width:576px) {
+
+    /*estilos del titulo principal de las secciones*/
+    main {
+        .cont-secc {
+            .titulo-secc {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+
+}

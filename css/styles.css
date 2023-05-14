@@ -22,15 +22,17 @@ header nav div div ul li .font-nav {
 /*estilos del titulo principal de las secciones - version mobile*/
 main .cont-secc {
   background-color: #12223D;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   display: flex;
   justify-content: center;
   align-items: center; }
   main .cont-secc .titulo-secc {
     margin-bottom: 0;
-    color: white;
-    font-size: 1.2rem; }
+    color: whitesmoke;
+    font-size: 1.3rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600; }
 
 /*estilos del main de la Seccion Nosotros - version mobile*/
 footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
@@ -170,8 +172,8 @@ main .cont-menu {
           color: black;
           margin-bottom: 0; }
   main .cont-menu .cont-h2-menu {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem; }
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem; }
 
 main .galeria-menu {
   display: flex;
@@ -220,8 +222,8 @@ footer .sections-footer {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem; }
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem; }
   footer .sections-footer .redes-footer .iconos-redes {
     gap: 1rem; }
     footer .sections-footer .redes-footer .iconos-redes .icono-red {
@@ -248,12 +250,18 @@ footer .derechos-footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem; }
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem; }
   footer .derechos-footer .p-footer {
     margin-bottom: 0;
     color: black;
     font-size: 0.8rem; }
+
+/*estilos para version tablet vertical*/
+@media screen and (min-width: 576px) {
+  /*estilos del titulo principal de las secciones*/
+  main .cont-secc .titulo-secc {
+    font-size: 1.4rem; } }
 
 /*estilos para version tablet horizontal y desktop*/
 @media screen and (min-width: 992px) {
@@ -268,8 +276,11 @@ footer .derechos-footer {
       color: #151515;
       border-bottom: 2px solid #12223D; }
   /*estilos del titulo principal de las secciones*/
-  main .cont-secc .titulo-secc {
-    font-size: 1.8rem; }
+  main .cont-secc {
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+    main .cont-secc .titulo-secc {
+      font-size: 1.9rem; }
   /*estilos del main de la Seccion Nosotros*/
   main .main-nosotros {
     grid-template-columns: repeat(2, 1fr);

@@ -39,8 +39,10 @@
     /*estilos del titulo principal de las secciones*/
     main {
         .cont-secc {
+            @include padding-desktop;
+
             .titulo-secc {
-                font-size: 1.8rem;
+                font-size: 1.9rem;
             }
         }
     }
