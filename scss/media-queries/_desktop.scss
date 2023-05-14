@@ -9,13 +9,13 @@
     header {
         nav {
             div {
-                a{
-                    img{
+                a {
+                    img {
                         width: 160px;
                         height: 105px;
                     }
                 }
-                
+
                 div {
                     ul {
                         li {
@@ -143,70 +143,98 @@
 
     footer {
         .sections-footer {
+            display: flex;
             flex-direction: row;
             justify-content: space-evenly;
             align-items: baseline;
             padding-top: 1.5rem;
-            padding-bottom: 1rem;
 
             .ubicacion-footer {
-                display: block;
-                @include flex3;
-
-                .h3-footer {
-                    @include h3-footer;
-                }
+                width: 20%;
+                gap: 1rem;
 
                 .p-ubicacion {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: flex-start;
-                    .p-secc-footer{
-                        @include p-secc-footer;            
+                    .p-secc-footer {
+                        font-size: 0.9rem;
                     }
                 }
             }
 
-            .contacto-footer{
-                display: block;
-                @include flex3;
+            .contacto-footer {
+                width: 20%;
+                gap: 1rem;
 
-                .h3-footer{
-                    @include h3-footer;
-                }
-                
-                .p-contacto{
-                    @include flex2;
-                    .p-secc-footer{
-                        @include p-secc-footer;   
+                .p-contacto {
+                    .p-secc-footer {
+                        font-size: 0.9rem;
                     }
                 }
             }
 
-            .newsletter-footer{
-                form{
-                    fieldset{
-                        .input-newsletter{
-                            font-size: 0.9rem;
-                            .input-newsletter2{
-                                padding: 0.08rem;
+            .redes-footer {
+                width: 20%;
+                gap: 1rem;
+
+                .iconos-redes {
+                    a {
+                        .icono-red1 {
+                            font-size: 1.8rem;
+
+                            &:hover {
+                                transform: scale(1.1);
+                                transition: transform 0.5s;
                             }
                         }
 
-                        .boton-newsletter{
-                            .boton-newsletter2{
-                                border-width: 1px;
-                                border-style: solid;
-                                border-image: none;
-                                padding: 0.2rem;
+                        .icono-red2 {
+                            font-size: 1.8rem;
 
-                                &:hover{
-                                    background-color: rgb(170, 168, 168);
+                            &:hover {
+                                transform: scale(1.1);
+                                transition: transform 1s ease;
+
+                            }
+                        }
+                    }
+                }
+            }
+
+            .newsletter-footer {
+                width: 20%;
+                gap: 1rem;
+
+                form {
+                    fieldset {
+                        .input-newsletter {
+                            .input-newsletter2 {
+                                width: 85%;
+                                font-size: 0.9rem;
+
+                                &:focus {
+                                    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+                                    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+                                    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+
+                                }
+                            }
+                        }
+
+                        .boton-newsletter {
+                            .boton-newsletter2 {
+                                font-size: 0.83rem;
+                                padding: 0.3rem;
+
+                                &:hover {
+                                    background-color: $color-p-footer;
+                                    color: #434656;
                                 }
 
-                                &:active{
-                                    background-color: rgb(143, 141, 141)
+                                &:active {
+                                    background-color: $color-p-footer;
+                                    color: #434656;
+                                    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+                                    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+                                    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
                                 }
                             }
                         }
@@ -216,35 +244,32 @@
 
         }
 
-        .boton-arriba-footer{
+        .boton-arriba-footer {
             display: block;
-            background-color: rgb(81, 111, 155);
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
             padding-right: 0.5rem;
-            .icono-boton-arriba{
-                color: white;
-                font-size: 1.2rem;
-                border: 1px solid rgba(255, 255, 255, 0.363);
-                background-color: rgba(255, 255, 255, 0.363);
-                padding: 0rem 0.2rem;
+            position: relative;
 
-                &:hover{
-                    background-color: rgb(73, 94, 126);
-                }
-
-                &:active{
-                    background-color: rgb(59, 88, 131);
+            a {
+                .icono-boton-arriba {
+                    color: #dee0e5;
+                    font-size: 1.2rem;
+                    position: absolute;
+                    top: 1.5rem;
+                    left: 95%;
                 }
             }
+
+
         }
 
-        .derechos-footer{
-            padding-top: 0;
+        .derechos-footer {
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            .p-footer{
+                font-size: 0.9rem;
+            }
         }
 
     }
 
 }
-
