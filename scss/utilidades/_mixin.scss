@@ -20,8 +20,8 @@
 }
 
 @mixin padding-mobile{
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
 }
 
 @mixin margin-mobile{
@@ -34,17 +34,19 @@
     padding-bottom: 1rem;
 }
 
-
 @mixin h3-footer{
     font-size: 1rem;
     color: $color-h3-footer;
     margin-bottom: 0;
+    font-family: 'Playfair Display', serif;
 }
 
 @mixin p-secc-footer{
     margin-bottom: 0;
     color: $color-p-footer;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 @mixin img($width, $height){

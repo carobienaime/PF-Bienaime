@@ -14,5 +14,87 @@
         }
     }
 
+    /*estilos del footer de mi sitio web*/
+
+    footer {
+        .sections-footer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, auto);
+            justify-items: center;
+            align-items: baseline;
+            row-gap: 2.5rem;
+            column-gap: 0rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+
+            .ubicacion-footer {
+                display: block;
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+                @include flex3;
+
+                .h3-footer {
+                    @include h3-footer;
+                }
+
+                .p-ubicacion {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+
+                    .p-secc-footer {
+                        @include p-secc-footer;
+                    }
+                }
+            }
+
+            .contacto-footer {
+                display: block;
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+                @include flex3;
+
+                .h3-footer {
+                    @include h3-footer;
+                }
+
+                .p-contacto {
+                    @include flex2;
+
+                    .p-secc-footer {
+                        @include p-secc-footer;
+                    }
+                }
+            }
+
+            .redes-footer{
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+            }
+
+            .newsletter-footer {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+
+                form{
+                    fieldset{
+                        .input-newsletter{
+                            .input-newsletter2{
+                                width: 70%;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+
+
+
+
 
 }
