@@ -7,7 +7,7 @@
 
 main {
     .cont-secc {
-        background-color: $color-principal;
+        background-color: $bg-seccion;
         @include padding-mobile;
         @include flex1;
 

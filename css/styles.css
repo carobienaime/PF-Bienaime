@@ -38,7 +38,7 @@ main .cont-secc {
 footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
-footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -112,7 +112,7 @@ main .main-nosotros {
 footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
-footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -194,7 +194,7 @@ main .galeria-menu {
 footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
-footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -229,12 +229,14 @@ footer .sections-footer {
   padding-bottom: 0.8rem; }
   footer .sections-footer .redes-footer .iconos-redes {
     gap: 1rem; }
-    footer .sections-footer .redes-footer .iconos-redes .icono-red1 {
-      color: #c8ccd5;
-      font-size: 1.5rem; }
-    footer .sections-footer .redes-footer .iconos-redes .icono-red2 {
-      color: #c8ccd5;
-      font-size: 1.55rem; }
+    footer .sections-footer .redes-footer .iconos-redes a {
+      text-decoration: none; }
+      footer .sections-footer .redes-footer .iconos-redes a .icono-red1 {
+        color: #c8ccd5;
+        font-size: 1.5rem; }
+      footer .sections-footer .redes-footer .iconos-redes a .icono-red2 {
+        color: #c8ccd5;
+        font-size: 1.5rem; }
   footer .sections-footer .newsletter-footer {
     width: 100%; }
     footer .sections-footer .newsletter-footer form {
@@ -264,18 +266,24 @@ footer .sections-footer {
             outline: none;
             padding: 0.1rem; }
         footer .sections-footer .newsletter-footer form fieldset .boton-newsletter .boton-newsletter2 {
-          font-size: 0.8rem; }
+          font-size: 0.8rem;
+          font-family: 'Open Sans', sans-serif;
+          text-align: center;
+          background-color: transparent;
+          border-radius: 0.3rem;
+          color: #c8ccd5;
+          outline: none;
+          border: 1px solid #c8ccd5;
+          padding: 0.2rem; }
 
 footer .derechos-footer {
-  background-color: pink;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #394867;
+  text-align: center;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem; }
   footer .derechos-footer .p-footer {
     margin-bottom: 0;
-    color: black;
+    color: #c8ccd5;
     font-size: 0.8rem; }
 
 /*estilos para version tablet vertical*/

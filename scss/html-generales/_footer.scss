@@ -6,7 +6,7 @@
 
 footer {
     .sections-footer {
-        background-color: $color-principal;
+        background-color: $bg-footer1;
         @include flex2;
         gap: 1rem;
         @include padding-mobile;
@@ -30,15 +30,22 @@ footer {
                 @extend %flex1;
                 gap: 1rem;
 
-                .icono-red1{
-                    color: #c8ccd5;
-                    font-size: 1.5rem;
+                a{
+                    @extend %flex1;
+                    text-decoration: none;
+
+                    .icono-red1{
+                        color: $color-p-footer;
+                        font-size: 1.5rem;
+                    }
+    
+                    .icono-red2{
+                        color: $color-p-footer;
+                        font-size: 1.5rem;
+                    }
                 }
 
-                .icono-red2{
-                    color: #c8ccd5;
-                    font-size: 1.55rem;
-                }
+
             }
         }
 
@@ -76,7 +83,7 @@ footer {
                             background-color: whitesmoke;
                             border-radius: 0.1rem;
                             font-family: 'Open Sans', sans-serif;
-                            color: #212324;
+                            color: $color-txt2;
                             outline: none;
                             padding: 0.1rem;
                         }           
@@ -87,6 +94,14 @@ footer {
                         @extend %flex1;
                         .boton-newsletter2{
                             font-size: 0.8rem;
+                            font-family: 'Open Sans', sans-serif;
+                            text-align: center;
+                            background-color: transparent;
+                            border-radius: 0.3rem;
+                            color: $color-p-footer;
+                            outline: none;
+                            border: 1px solid $color-p-footer;
+                            padding: 0.2rem;
                         }
                     }
                 }
@@ -99,12 +114,13 @@ footer {
     }
 
     .derechos-footer {
-        background-color: pink;
-        @include flex1;
+        background-color: $bg-footer2;
+        text-align: center;
         @include padding-mobile;
+        
         .p-footer{
             margin-bottom: 0;
-            color: black;
+            color: $color-p-footer;
             font-size: 0.8rem;
         }
     }
