@@ -3,13 +3,26 @@
 header {
     nav {
         div {
-            .menu-hamburguesa:focus {
-                box-shadow: none;       
+            a {
+                img {
+                    width: 144px;
+                    height: 95px;
+                }
             }
-            div{
-                ul{
-                    li{
-                        .font-nav{
+
+            .menu-hamburguesa {
+                border-color: tomato;
+
+                &:focus {
+                    box-shadow: none;
+                }
+
+            }
+
+            div {
+                ul {
+                    li {
+                        .font-nav {
                             color: black;
                             font-weight: bold;
                             font-size: 1rem;
