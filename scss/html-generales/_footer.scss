@@ -30,23 +30,31 @@ footer {
                 @extend %flex1;
                 gap: 1rem;
 
-                .icono-red {
-                    color: black;
+                .icono-red1{
+                    color: #c8ccd5;
                     font-size: 1.5rem;
+                }
+
+                .icono-red2{
+                    color: #c8ccd5;
+                    font-size: 1.55rem;
                 }
             }
         }
 
         .newsletter-footer {
             @extend %flex3;
+            width: 100%;
 
             .h3-footer {
                 @extend %h3-footer;
             }
 
             form {
+                width: 100%;
                 fieldset {
                     @include flex3;
+                    width: 100%;
 
                     legend {
                         display: none;
@@ -54,6 +62,7 @@ footer {
 
                     .input-newsletter {
                         @extend %flex1;
+                        width: 100%;
 
                         label {
                             display: none;
@@ -62,6 +71,14 @@ footer {
                         .input-newsletter2{
                             text-align: center;
                             font-size: 0.8rem;
+                            width: 75%;
+                            border-color: transparent;
+                            background-color: whitesmoke;
+                            border-radius: 0.1rem;
+                            font-family: 'Open Sans', sans-serif;
+                            color: #212324;
+                            outline: none;
+                            padding: 0.1rem;
                         }           
 
                     }
