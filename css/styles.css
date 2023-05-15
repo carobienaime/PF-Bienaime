@@ -491,14 +491,14 @@ footer .derechos-footer {
           -moz-box-shadow: 0px 0px 10px 0px black; }
   footer .boton-arriba-footer {
     display: block;
-    padding-right: 0.5rem;
     position: relative; }
-    footer .boton-arriba-footer a .icono-boton-arriba {
-      color: #dee0e5;
-      font-size: 1.2rem;
+    footer .boton-arriba-footer a {
       position: absolute;
       top: 1.5rem;
       left: 95%; }
+      footer .boton-arriba-footer a .icono-boton-arriba {
+        color: #dee0e5;
+        font-size: 1.2rem; }
   footer .derechos-footer {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem; }

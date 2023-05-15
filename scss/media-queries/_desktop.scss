@@ -258,16 +258,14 @@
 
         .boton-arriba-footer {
             display: block;
-            padding-right: 0.5rem;
             position: relative;
-
             a {
+                position: absolute;
+                top: 1.5rem;
+                left: 95%;
                 .icono-boton-arriba {
                     color: #dee0e5;
                     font-size: 1.2rem;
-                    position: absolute;
-                    top: 1.5rem;
-                    left: 95%;
                 }
             }
 
