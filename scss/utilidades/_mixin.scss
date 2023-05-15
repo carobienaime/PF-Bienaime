@@ -1,3 +1,6 @@
+//imports
+@import "variables";
+
 @mixin flex1 {
     display: flex;
     justify-content: center;
@@ -24,14 +27,14 @@
     padding-bottom: 0.9rem;
 }
 
-@mixin margin-mobile{
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
-}
-
 @mixin padding-desktop{
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+@mixin margin-mobile{
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
 }
 
 @mixin h3-footer{
