@@ -57,7 +57,7 @@ main .main-nosotros .cont-h2-p-nos .h2-secc, main .cont-menu .cont-menu2 .h2-sec
   font-weight: bold; }
 
 footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #dee0e5;
   margin-bottom: 0;
   font-family: 'Playfair Display', serif; }
@@ -131,7 +131,7 @@ main .main-nosotros .cont-h2-p-nos .h2-secc, main .cont-menu .cont-menu2 .h2-sec
   font-weight: bold; }
 
 footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #dee0e5;
   margin-bottom: 0;
   font-family: 'Playfair Display', serif; }
@@ -213,7 +213,7 @@ main .main-nosotros .cont-h2-p-nos .h2-secc, main .cont-menu .cont-menu2 .h2-sec
   font-weight: bold; }
 
 footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #dee0e5;
   margin-bottom: 0;
   font-family: 'Playfair Display', serif; }
@@ -312,7 +312,7 @@ footer .derechos-footer {
       align-items: center;
       gap: 0.8rem; }
       footer .sections-footer .ubicacion-footer .h3-footer {
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: #dee0e5;
         margin-bottom: 0;
         font-family: 'Playfair Display', serif; }
@@ -336,7 +336,7 @@ footer .derechos-footer {
       align-items: center;
       gap: 0.8rem; }
       footer .sections-footer .contacto-footer .h3-footer {
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: #dee0e5;
         margin-bottom: 0;
         font-family: 'Playfair Display', serif; }
@@ -431,24 +431,29 @@ footer .derechos-footer {
       height: 30%; }
   /*estilos del footer de mi sitio web*/
   footer .sections-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: baseline;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    padding-top: 1.5rem;
+    row-gap: 0rem;
     padding-top: 1.5rem; }
     footer .sections-footer .ubicacion-footer {
-      width: 20%;
       gap: 1rem; }
+      footer .sections-footer .ubicacion-footer .h3-footer {
+        font-size: 1rem; }
       footer .sections-footer .ubicacion-footer .p-ubicacion .p-secc-footer {
         font-size: 0.9rem; }
     footer .sections-footer .contacto-footer {
-      width: 20%;
       gap: 1rem; }
+      footer .sections-footer .contacto-footer .h3-footer {
+        font-size: 1rem; }
       footer .sections-footer .contacto-footer .p-contacto .p-secc-footer {
         font-size: 0.9rem; }
     footer .sections-footer .redes-footer {
-      width: 20%;
+      grid-column: 3 / 4;
+      grid-row: 1 / 2;
       gap: 1rem; }
+      footer .sections-footer .redes-footer .h3-footer {
+        font-size: 1rem; }
       footer .sections-footer .redes-footer .iconos-redes a .icono-red1 {
         font-size: 1.8rem; }
         footer .sections-footer .redes-footer .iconos-redes a .icono-red1:hover {
@@ -460,10 +465,13 @@ footer .derechos-footer {
           transform: scale(1.1);
           transition: transform 1s ease; }
     footer .sections-footer .newsletter-footer {
-      width: 20%;
+      grid-column: 4 / 5;
+      grid-row: 1 / 2;
       gap: 1rem; }
+      footer .sections-footer .newsletter-footer .h3-footer {
+        font-size: 1rem; }
       footer .sections-footer .newsletter-footer form fieldset .input-newsletter .input-newsletter2 {
-        width: 85%;
+        width: 80%;
         font-size: 0.9rem; }
         footer .sections-footer .newsletter-footer form fieldset .input-newsletter .input-newsletter2:focus {
           box-shadow: 0px 0px 10px 0px black;
