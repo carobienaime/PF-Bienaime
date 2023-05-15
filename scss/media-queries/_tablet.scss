@@ -54,10 +54,9 @@
                 "telefono telefono telefono email email email"
                 "comensal comensal fecha fecha horario horario"
                 "mensaje mensaje mensaje mensaje mensaje mensaje"
-                ". boton boton boton boton .";
+                ". . boton boton . .";
                 column-gap: 0.8rem;
                 
-
                 .input-reserva1{
                     grid-area: nombre;
                     .nombre-reserva{
@@ -184,7 +183,16 @@
         }
 
         .h2-p-reserva{
+            margin-left: 2rem;
+            margin-right: 2rem;
 
+            .h2-telefono{
+                font-size: 1.3rem;
+            }
+
+            .p-telefono{
+                font-size: 1rem;
+            }
         }
     }
 
