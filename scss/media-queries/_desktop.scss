@@ -139,6 +139,95 @@
         }
     }
 
+    /*estilos del main de la Seccion Reservas*/
+    
+    main{
+        .subtitulos-reservas{
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+
+            .h2-reservas{
+                font-size: 1.4rem;
+                padding-bottom: 1rem;
+            }
+        }
+
+        .formulario-reserva{
+            fieldset{
+                gap: 1rem;
+
+                .input-reserva1{
+                    .nombre-reserva{
+                        margin-left: 10rem;
+                        padding: 0.6rem;
+                    }
+                }
+    
+                .input-reserva2{
+                    .apellido-reserva{
+                        margin-right: 10rem;
+                        padding: 0.6rem;
+                    }
+                }
+    
+                .input-reserva3{
+                    .telefono-reserva{
+                        margin-left: 10rem;
+                        padding: 0.6rem;
+                    }
+                }
+    
+                .input-reserva4{
+                    .email-reserva{
+                        margin-right: 10rem;
+                        padding: 0.6rem;
+                    }
+                }
+    
+                .input-reserva5{
+                    .comensales-reserva{
+                        margin-left: 10rem;
+                        padding: 0.6rem;
+                    }
+                }
+        
+                .input-reserva7{
+                    .horario-reserva{
+                        margin-right: 10rem;
+                        padding: 0.6rem;
+                    }
+                }
+    
+                .input-reserva8{
+                    .mensaje-reserva{
+                        margin-left: 10rem;
+                        margin-right: 10rem;
+                        padding: 0.6rem;
+                    }
+                }
+    
+                .input-boton-reserva{
+                    .boton-reserva1{
+                        font-size: 0.9rem;
+                        padding: 0.5rem;
+                    }
+    
+                    .boton-reserva2{
+                        font-size: 0.9rem;
+                        padding: 0.5rem;
+                    }        
+                }
+            }
+        }
+
+        .condiciones-reserva{}
+
+        .h2-p-reserva{
+
+        }
+    }
+
+
     /*estilos del footer de mi sitio web*/
 
     footer {

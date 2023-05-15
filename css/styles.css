@@ -721,6 +721,43 @@ footer .derechos-footer {
     main .galeria-menu .img-menu {
       width: 30%;
       height: 30%; }
+  /*estilos del main de la Seccion Reservas*/
+  main .subtitulos-reservas {
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
+    main .subtitulos-reservas .h2-reservas {
+      font-size: 1.4rem;
+      padding-bottom: 1rem; }
+  main .formulario-reserva fieldset {
+    gap: 1rem; }
+    main .formulario-reserva fieldset .input-reserva1 .nombre-reserva {
+      margin-left: 10rem;
+      padding: 0.6rem; }
+    main .formulario-reserva fieldset .input-reserva2 .apellido-reserva {
+      margin-right: 10rem;
+      padding: 0.6rem; }
+    main .formulario-reserva fieldset .input-reserva3 .telefono-reserva {
+      margin-left: 10rem;
+      padding: 0.6rem; }
+    main .formulario-reserva fieldset .input-reserva4 .email-reserva {
+      margin-right: 10rem;
+      padding: 0.6rem; }
+    main .formulario-reserva fieldset .input-reserva5 .comensales-reserva {
+      margin-left: 10rem;
+      padding: 0.6rem; }
+    main .formulario-reserva fieldset .input-reserva7 .horario-reserva {
+      margin-right: 10rem;
+      padding: 0.6rem; }
+    main .formulario-reserva fieldset .input-reserva8 .mensaje-reserva {
+      margin-left: 10rem;
+      margin-right: 10rem;
+      padding: 0.6rem; }
+    main .formulario-reserva fieldset .input-boton-reserva .boton-reserva1 {
+      font-size: 0.9rem;
+      padding: 0.5rem; }
+    main .formulario-reserva fieldset .input-boton-reserva .boton-reserva2 {
+      font-size: 0.9rem;
+      padding: 0.5rem; }
   /*estilos del footer de mi sitio web*/
   footer .sections-footer {
     grid-template-columns: repeat(4, 1fr);
