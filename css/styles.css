@@ -472,9 +472,79 @@ footer .derechos-footer {
 
 /*estilos para version tablet vertical*/
 @media screen and (min-width: 576px) {
+  /*estilos del header de mi sitio web*/
+  header nav div div ul li .font-nav {
+    font-size: 0.9rem; }
   /*estilos del titulo principal de las secciones*/
   main .cont-secc .titulo-secc {
     font-size: 1.4rem; }
+  /*estilos del main de la Seccion Reservas*/
+  main .subtitulos-reservas .h2-reservas {
+    font-size: 1.3rem; }
+  main .subtitulos-reservas .p-reservas {
+    font-size: 0.9rem; }
+  main .formulario-reserva fieldset {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "nombre nombre nombre apellido apellido apellido" "telefono telefono telefono email email email" "comensal comensal fecha fecha horario horario" "mensaje mensaje mensaje mensaje mensaje mensaje" ". boton boton boton boton .";
+    column-gap: 0.8rem; }
+    main .formulario-reserva fieldset .input-reserva1 {
+      grid-area: nombre; }
+      main .formulario-reserva fieldset .input-reserva1 .nombre-reserva {
+        width: 100%;
+        margin-left: 2rem;
+        font-size: 0.9rem; }
+    main .formulario-reserva fieldset .input-reserva2 {
+      grid-area: apellido; }
+      main .formulario-reserva fieldset .input-reserva2 .apellido-reserva {
+        width: 100%;
+        margin-right: 2rem;
+        font-size: 0.9rem; }
+    main .formulario-reserva fieldset .input-reserva3 {
+      grid-area: telefono; }
+      main .formulario-reserva fieldset .input-reserva3 .telefono-reserva {
+        width: 100%;
+        margin-left: 2rem;
+        font-size: 0.9rem; }
+    main .formulario-reserva fieldset .input-reserva4 {
+      grid-area: email; }
+      main .formulario-reserva fieldset .input-reserva4 .email-reserva {
+        width: 100%;
+        margin-right: 2rem;
+        font-size: 0.9rem; }
+    main .formulario-reserva fieldset .input-reserva5 {
+      grid-area: comensal; }
+      main .formulario-reserva fieldset .input-reserva5 .comensales-reserva {
+        width: 100%;
+        margin-left: 2rem;
+        font-size: 0.9rem; }
+    main .formulario-reserva fieldset .input-reserva6 {
+      grid-area: fecha; }
+      main .formulario-reserva fieldset .input-reserva6 .fecha-reserva {
+        width: 100%;
+        font-size: 0.9rem; }
+    main .formulario-reserva fieldset .input-reserva7 {
+      grid-area: horario; }
+      main .formulario-reserva fieldset .input-reserva7 .horario-reserva {
+        width: 100%;
+        margin-right: 2rem;
+        font-size: 0.9rem; }
+    main .formulario-reserva fieldset .input-reserva8 {
+      grid-area: mensaje; }
+      main .formulario-reserva fieldset .input-reserva8 .mensaje-reserva {
+        width: 100%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 0.9rem; }
+    main .formulario-reserva fieldset .input-boton-reserva {
+      grid-area: boton; }
+      main .formulario-reserva fieldset .input-boton-reserva .boton-reserva1 {
+        font-size: 0.9rem;
+        padding: 0.5rem; }
+      main .formulario-reserva fieldset .input-boton-reserva .boton-reserva2 {
+        font-size: 0.9rem;
+        padding: 0.5rem; }
   /*estilos del footer de mi sitio web*/
   footer .sections-footer {
     display: grid;
@@ -499,7 +569,8 @@ footer .derechos-footer {
         font-size: 0.9rem;
         color: #dee0e5;
         margin-bottom: 0;
-        font-family: 'Playfair Display', serif; }
+        font-family: 'Playfair Display', serif;
+        font-size: 1rem; }
       footer .sections-footer .ubicacion-footer .p-ubicacion {
         display: flex;
         flex-direction: column;
@@ -523,7 +594,8 @@ footer .derechos-footer {
         font-size: 0.9rem;
         color: #dee0e5;
         margin-bottom: 0;
-        font-family: 'Playfair Display', serif; }
+        font-family: 'Playfair Display', serif;
+        font-size: 1rem; }
       footer .sections-footer .contacto-footer .p-contacto {
         display: flex;
         flex-direction: column;
@@ -537,11 +609,15 @@ footer .derechos-footer {
     footer .sections-footer .redes-footer {
       grid-column: 1 / 2;
       grid-row: 2 / 3; }
+      footer .sections-footer .redes-footer .h3-footer {
+        font-size: 1rem; }
     footer .sections-footer .newsletter-footer {
       grid-column: 2 / 3;
       grid-row: 2 / 3; }
+      footer .sections-footer .newsletter-footer .h3-footer {
+        font-size: 1rem; }
       footer .sections-footer .newsletter-footer form fieldset .input-newsletter .input-newsletter2 {
-        width: 70%; } }
+        width: 58%; } }
 
 /*estilos para version tablet horizontal y desktop*/
 @media screen and (min-width: 992px) {

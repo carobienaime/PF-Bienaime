@@ -5,6 +5,23 @@
 
 @media screen and (min-width:576px) {
 
+    /*estilos del header de mi sitio web*/
+    header{
+        nav{
+            div{
+                div{
+                    ul{
+                        li{
+                            .font-nav{
+                                font-size: 0.9rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     /*estilos del titulo principal de las secciones*/
     main {
         .cont-secc {
@@ -13,6 +30,131 @@
             }
         }
     }
+
+    /*estilos del main de la Seccion Reservas*/
+
+    main{
+        .subtitulos-reservas{
+            .h2-reservas{
+                font-size: 1.3rem;
+            }
+
+            .p-reservas{
+                font-size: 0.9rem;
+            }
+        }
+
+        .formulario-reserva{
+            fieldset{
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(5, auto);
+                grid-template-areas: 
+                "nombre nombre nombre apellido apellido apellido"
+                "telefono telefono telefono email email email"
+                "comensal comensal fecha fecha horario horario"
+                "mensaje mensaje mensaje mensaje mensaje mensaje"
+                ". boton boton boton boton .";
+                column-gap: 0.8rem;
+                
+
+                .input-reserva1{
+                    grid-area: nombre;
+                    .nombre-reserva{
+                        width: 100%;
+                        margin-left: 2rem;
+                        font-size: 0.9rem;
+                    }
+                }
+    
+                .input-reserva2{
+                    grid-area: apellido;
+                    .apellido-reserva{
+                        width: 100%;
+                        margin-right: 2rem;
+                        font-size: 0.9rem;
+                    }
+                }
+    
+                .input-reserva3{
+                    grid-area: telefono;
+                    .telefono-reserva{
+                        width: 100%;
+                        margin-left: 2rem;
+                        font-size: 0.9rem;
+                    }
+                }
+    
+                .input-reserva4{
+                    grid-area: email;
+                    .email-reserva{
+                        width: 100%;
+                        margin-right: 2rem;
+                        font-size: 0.9rem;
+                    }
+                }
+    
+                .input-reserva5{
+                    grid-area: comensal;
+                    .comensales-reserva{
+                        width: 100%;
+                        margin-left: 2rem;
+                        font-size: 0.9rem;
+                    }
+                }
+    
+                .input-reserva6{
+                    grid-area: fecha;
+                    .fecha-reserva{
+                        width: 100%;
+                        font-size: 0.9rem;
+                    }
+                }
+    
+                .input-reserva7{
+                    grid-area: horario;
+                    .horario-reserva{
+                        width: 100%;
+                        margin-right: 2rem;
+                        font-size: 0.9rem;
+                    }
+                }
+    
+                .input-reserva8{
+                    grid-area: mensaje;
+                    .mensaje-reserva{
+                        width: 100%;
+                        margin-left: 2rem;
+                        margin-right: 2rem;
+                        font-size: 0.9rem;
+                    }
+                }
+    
+                .input-boton-reserva{
+                    grid-area: boton;
+                    .boton-reserva1{
+                        font-size: 0.9rem;
+                        padding: 0.5rem;
+                    }
+    
+                    .boton-reserva2{
+                        font-size: 0.9rem;
+                        padding: 0.5rem;
+                    }        
+                }
+    
+            }
+        }
+
+        .condiciones-reserva{
+
+        }
+
+        .h2-p-reserva{
+
+        }
+    }
+
 
     /*estilos del footer de mi sitio web*/
 
@@ -36,6 +178,7 @@
 
                 .h3-footer {
                     @include h3-footer;
+                    font-size: 1rem;
                 }
 
                 .p-ubicacion {
@@ -58,6 +201,7 @@
 
                 .h3-footer {
                     @include h3-footer;
+                    font-size: 1rem;
                 }
 
                 .p-contacto {
@@ -72,17 +216,25 @@
             .redes-footer{
                 grid-column: 1 / 2;
                 grid-row: 2 / 3;
+
+                .h3-footer{
+                    font-size: 1rem;
+                }
             }
 
             .newsletter-footer {
                 grid-column: 2 / 3;
                 grid-row: 2 / 3;
 
+                .h3-footer{
+                    font-size: 1rem;
+                }
+
                 form{
                     fieldset{
                         .input-newsletter{
                             .input-newsletter2{
-                                width: 70%;
+                                width: 58%;
                             }
                         }
                     }
