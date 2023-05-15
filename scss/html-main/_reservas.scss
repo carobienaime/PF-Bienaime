@@ -1,0 +1,132 @@
+/*estilos del main de la Seccion Reservas - version mobile*/
+
+//imports
+@import "../utilidades/extend";
+@import "../utilidades/mixin";
+
+
+main{
+    .subtitulos-reservas{
+        text-align: center;
+        @include padding-mobile;
+        .h2-reservas{
+            font-size: 1.1rem;
+            font-family: 'Playfair Display', serif;
+            color: $color-txt1;
+        }
+
+        .p-reservas{
+            font-size: 0.8rem;
+            font-family: 'Open Sans', sans-serif;
+            color: $color-txt2;
+
+
+        }
+    }
+
+    form{
+        width: 100%;
+        fieldset{
+            @include flex3;
+            width: 100%;
+
+            legend{
+                display: none;
+            }
+
+            div{
+                label{
+                    display: none;
+                }
+            }
+
+            .input-reserva1{
+                @extend %flex1;
+                width: 100%;
+                .nombre-reserva{
+                    width: 95%;
+                    @extend %input-formulario-mobile;
+                }
+            }
+
+            .input-reserva2{
+                @extend %flex1;
+                width: 100%;
+                .apellido-reserva{
+                    width: 95%;
+                    @extend %input-formulario-mobile;
+                }
+            }
+
+            .input-reserva3{
+                @extend %flex1;
+                width: 100%;
+                .telefono-reserva{
+                    width: 95%;
+                    @extend %input-formulario-mobile;
+                }
+            }
+
+            .input-reserva4{
+                @extend %flex1;
+                width: 100%;
+                .email-reserva{
+                    width: 95%;
+                    @extend %input-formulario-mobile;
+                }
+            }
+
+            .input-reserva5{
+                @extend %flex1;
+                width: 100%;
+                .comensales-reserva{
+                    width: 95%;
+                    @extend %input-formulario-mobile;
+                }
+            }
+
+            .input-reserva6{
+                @extend %flex1;
+                width: 100%;
+                .fecha-reserva{
+                    width: 95%;
+                    @extend %input-formulario-mobile;
+                }
+            }
+
+            .input-reserva7{
+                @extend %flex1;
+                width: 100%;
+                .horario-reserva{
+                    width: 95%;
+                    @extend %input-formulario-mobile;
+                }
+            }
+
+            .input-reserva8{
+                @extend %flex1;
+                width: 100%;
+                .mensaje-reserva{
+                    width: 95%;
+                    @extend %input-formulario-mobile;
+                }
+            }
+
+            .input-boton-reserva{
+                @extend %flex1;
+                gap: 0.8rem;
+                .boton-reserva1{
+                    @include boton-formulario-mobile;
+                }
+
+                .boton-reserva2{
+                    @include boton-formulario-mobile;
+                }
+
+
+            }
+
+        }
+    }
+}
+

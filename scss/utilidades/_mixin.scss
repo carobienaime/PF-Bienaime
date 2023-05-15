@@ -57,3 +57,26 @@
     height: $height;
 }
 
+@mixin input-formulario-mobile{
+    font-size: 0.8rem;
+    border: 1px solid #c8ccd5;
+    background-color: whitesmoke;
+    border-radius: 0.1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #212324;
+    outline: none;
+    padding: 0.4rem;
+}
+
+@mixin boton-formulario-mobile{
+    font-size: 0.8rem;
+    border: 1px solid #b47e1e;
+    background-color: #b47e1e;
+    border-radius: 0.3rem;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    outline: none;
+    padding: 0.4rem;
+    text-align: center;
+}
+

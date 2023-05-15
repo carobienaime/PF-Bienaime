@@ -38,7 +38,7 @@ main .cont-secc {
 footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
-footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+main form fieldset .input-reserva1, main form fieldset .input-reserva2, main form fieldset .input-reserva3, main form fieldset .input-reserva4, main form fieldset .input-reserva5, main form fieldset .input-reserva6, main form fieldset .input-reserva7, main form fieldset .input-reserva8, main form fieldset .input-boton-reserva, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -61,6 +61,16 @@ footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsl
   color: #dee0e5;
   margin-bottom: 0;
   font-family: 'Playfair Display', serif; }
+
+main form fieldset .input-reserva1 .nombre-reserva, main form fieldset .input-reserva2 .apellido-reserva, main form fieldset .input-reserva3 .telefono-reserva, main form fieldset .input-reserva4 .email-reserva, main form fieldset .input-reserva5 .comensales-reserva, main form fieldset .input-reserva6 .fecha-reserva, main form fieldset .input-reserva7 .horario-reserva, main form fieldset .input-reserva8 .mensaje-reserva {
+  font-size: 0.8rem;
+  border: 1px solid #c8ccd5;
+  background-color: whitesmoke;
+  border-radius: 0.1rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #212324;
+  outline: none;
+  padding: 0.4rem; }
 
 main .main-nosotros {
   display: grid;
@@ -112,7 +122,7 @@ main .main-nosotros {
 footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
-footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+main form fieldset .input-reserva1, main form fieldset .input-reserva2, main form fieldset .input-reserva3, main form fieldset .input-reserva4, main form fieldset .input-reserva5, main form fieldset .input-reserva6, main form fieldset .input-reserva7, main form fieldset .input-reserva8, main form fieldset .input-boton-reserva, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -135,6 +145,16 @@ footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsl
   color: #dee0e5;
   margin-bottom: 0;
   font-family: 'Playfair Display', serif; }
+
+main form fieldset .input-reserva1 .nombre-reserva, main form fieldset .input-reserva2 .apellido-reserva, main form fieldset .input-reserva3 .telefono-reserva, main form fieldset .input-reserva4 .email-reserva, main form fieldset .input-reserva5 .comensales-reserva, main form fieldset .input-reserva6 .fecha-reserva, main form fieldset .input-reserva7 .horario-reserva, main form fieldset .input-reserva8 .mensaje-reserva {
+  font-size: 0.8rem;
+  border: 1px solid #c8ccd5;
+  background-color: whitesmoke;
+  border-radius: 0.1rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #212324;
+  outline: none;
+  padding: 0.4rem; }
 
 main .cont-menu {
   display: flex;
@@ -190,11 +210,11 @@ main .galeria-menu {
     width: 100%;
     height: 100%; }
 
-/*estilos del footer de mi sitio web - version mobile*/
+/*estilos del main de la Seccion Reservas - version mobile*/
 footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
-footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+main form fieldset .input-reserva1, main form fieldset .input-reserva2, main form fieldset .input-reserva3, main form fieldset .input-reserva4, main form fieldset .input-reserva5, main form fieldset .input-reserva6, main form fieldset .input-reserva7, main form fieldset .input-reserva8, main form fieldset .input-boton-reserva, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -217,6 +237,135 @@ footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsl
   color: #dee0e5;
   margin-bottom: 0;
   font-family: 'Playfair Display', serif; }
+
+main form fieldset .input-reserva1 .nombre-reserva, main form fieldset .input-reserva2 .apellido-reserva, main form fieldset .input-reserva3 .telefono-reserva, main form fieldset .input-reserva4 .email-reserva, main form fieldset .input-reserva5 .comensales-reserva, main form fieldset .input-reserva6 .fecha-reserva, main form fieldset .input-reserva7 .horario-reserva, main form fieldset .input-reserva8 .mensaje-reserva {
+  font-size: 0.8rem;
+  border: 1px solid #c8ccd5;
+  background-color: whitesmoke;
+  border-radius: 0.1rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #212324;
+  outline: none;
+  padding: 0.4rem; }
+
+main .subtitulos-reservas {
+  text-align: center;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem; }
+  main .subtitulos-reservas .h2-reservas {
+    font-size: 1.1rem;
+    font-family: 'Playfair Display', serif;
+    color: #151515; }
+  main .subtitulos-reservas .p-reservas {
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #212324; }
+
+main form {
+  width: 100%; }
+  main form fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    width: 100%; }
+    main form fieldset legend {
+      display: none; }
+    main form fieldset div label {
+      display: none; }
+    main form fieldset .input-reserva1 {
+      width: 100%; }
+      main form fieldset .input-reserva1 .nombre-reserva {
+        width: 95%; }
+    main form fieldset .input-reserva2 {
+      width: 100%; }
+      main form fieldset .input-reserva2 .apellido-reserva {
+        width: 95%; }
+    main form fieldset .input-reserva3 {
+      width: 100%; }
+      main form fieldset .input-reserva3 .telefono-reserva {
+        width: 95%; }
+    main form fieldset .input-reserva4 {
+      width: 100%; }
+      main form fieldset .input-reserva4 .email-reserva {
+        width: 95%; }
+    main form fieldset .input-reserva5 {
+      width: 100%; }
+      main form fieldset .input-reserva5 .comensales-reserva {
+        width: 95%; }
+    main form fieldset .input-reserva6 {
+      width: 100%; }
+      main form fieldset .input-reserva6 .fecha-reserva {
+        width: 95%; }
+    main form fieldset .input-reserva7 {
+      width: 100%; }
+      main form fieldset .input-reserva7 .horario-reserva {
+        width: 95%; }
+    main form fieldset .input-reserva8 {
+      width: 100%; }
+      main form fieldset .input-reserva8 .mensaje-reserva {
+        width: 95%; }
+    main form fieldset .input-boton-reserva {
+      gap: 0.8rem; }
+      main form fieldset .input-boton-reserva .boton-reserva1 {
+        font-size: 0.8rem;
+        border: 1px solid #b47e1e;
+        background-color: #b47e1e;
+        border-radius: 0.3rem;
+        font-family: 'Open Sans', sans-serif;
+        color: whitesmoke;
+        outline: none;
+        padding: 0.4rem;
+        text-align: center; }
+      main form fieldset .input-boton-reserva .boton-reserva2 {
+        font-size: 0.8rem;
+        border: 1px solid #b47e1e;
+        background-color: #b47e1e;
+        border-radius: 0.3rem;
+        font-family: 'Open Sans', sans-serif;
+        color: whitesmoke;
+        outline: none;
+        padding: 0.4rem;
+        text-align: center; }
+
+/*estilos del footer de mi sitio web - version mobile*/
+footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
+  display: none; }
+
+main form fieldset .input-reserva1, main form fieldset .input-reserva2, main form fieldset .input-reserva3, main form fieldset .input-reserva4, main form fieldset .input-reserva5, main form fieldset .input-reserva6, main form fieldset .input-reserva7, main form fieldset .input-reserva8, main form fieldset .input-boton-reserva, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem; }
+
+main .main-nosotros .cont-h2-p-nos .h2-secc, main .cont-menu .cont-menu2 .h2-secc {
+  margin-bottom: 0;
+  color: #151515;
+  font-size: 1rem;
+  font-weight: bold; }
+
+footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
+  font-size: 0.9rem;
+  color: #dee0e5;
+  margin-bottom: 0;
+  font-family: 'Playfair Display', serif; }
+
+main form fieldset .input-reserva1 .nombre-reserva, main form fieldset .input-reserva2 .apellido-reserva, main form fieldset .input-reserva3 .telefono-reserva, main form fieldset .input-reserva4 .email-reserva, main form fieldset .input-reserva5 .comensales-reserva, main form fieldset .input-reserva6 .fecha-reserva, main form fieldset .input-reserva7 .horario-reserva, main form fieldset .input-reserva8 .mensaje-reserva {
+  font-size: 0.8rem;
+  border: 1px solid #c8ccd5;
+  background-color: whitesmoke;
+  border-radius: 0.1rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #212324;
+  outline: none;
+  padding: 0.4rem; }
 
 footer .sections-footer {
   background-color: #12223D;

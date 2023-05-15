@@ -29,3 +29,7 @@
     margin-bottom: 0;
     font-family: 'Playfair Display', serif;
 }
+
+%input-formulario-mobile{
+    @include input-formulario-mobile;
+}

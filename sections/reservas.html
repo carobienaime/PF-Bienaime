@@ -87,83 +87,105 @@
         </div>
 
         <!--Subtitulo de la seccion Reservas-->
-        <h2>Haga su reserva</h2>
+
+        <div class="subtitulos-reservas">
+            <h2 class="h2-reservas">Haga su reserva</h2>
+            <p class="p-reservas">Las reservas pueden realizarse hasta las 12 hs. al mediodía y 20 hs. por la noche.</p>
+        </div>
+
 
         <!--formulario de reserva-->
         <form>
             <fieldset>
                 <legend>Formulario de reserva</legend>
 
-                <div>
-                    <label for="nombre">Nombre y Apellido</label>
-                    <input type="text" name="nombres" id="nombre" placeholder="Nombre y Apellido">
+                <div class="input-reserva1">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="nombre-reserva">
                 </div>
 
-                <div>
-                    <label for="telefono">Telefono</label>
-                    <input type="number" name="telefono" id="telefono" placeholder="sin 0 y sin 15">
+                <div class="input-reserva2">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido" class="apellido-reserva">
                 </div>
 
-                <div>
+                <div class="input-reserva3">
+                    <label for="telefono">Teléfono</label>
+                    <input type="number" name="telefono" id="telefono" placeholder="Teléfono" class="telefono-reserva">
+                </div>
+
+                <div class="input-reserva4">
                     <label for="email">Email</label>
-                    <input type="email" name="correo electronico" id="email" placeholder="Correo electronico">
+                    <input type="email" name="correo electronico" id="email" placeholder="Email" class="email-reserva">
                 </div>
 
-                <div>
+                <div class="input-reserva5">
                     <label for="comensales">Cantidad de comensales</label>
-                    <select name="comensales" id="comensales">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
+                    <select name="comensales" id="comensales" class="comensales-reserva">
+                        <option value="1">1 persona</option>
+                        <option value="2">2 personas</option>
+                        <option value="3">3 personas</option>
+                        <option value="4">4 personas</option>
+                        <option value="5">5 personas</option>
+                        <option value="6">6 personas</option>
+                        <option value="7">7 personas</option>
+                        <option value="8">8 personas</option>
                     </select>
                 </div>
 
-                <div>
+                <div class="input-reserva6">
                     <label for="fecha">Fecha</label>
-                    <input type="date" name="fecha" id="fecha">
+                    <input type="date" name="fecha" id="fecha" class="fecha-reserva">
                 </div>
 
-                <div>
+                <div class="input-reserva7">
                     <label for="horario">Horario</label>
-                    <select name="horario" id="horario">
+                    <select name="horario" id="horario" class="horario-reserva">
                         <option value="horario1">12:00</option>
                         <option value="horario2">12:30</option>
                         <option value="horario3">13:00</option>
                         <option value="horario4">13:30</option>
+                        <option value="horario5">14:00</option>
+                        <option value="horario6">14:30</option>
+                        <option value="horario7">15:00</option>
+                        <option value="horario8">20:00</option>
+                        <option value="horario9">20:30</option>
+                        <option value="horario10">21:00</option>
+                        <option value="horario11">21:30</option>
+                        <option value="horario12">22:00</option>
+                        <option value="horario13">22:30</option>
                     </select>
                 </div>
 
-                <div>
+                <div class="input-reserva8">
                     <label for="comentarios">Comentarios</label>
-                    <textarea name="mensaje" id="comentarios" cols="30" rows="10"
-                        placeholder="Deje su mensaje"></textarea>
+                    <textarea name="mensaje" id="comentarios" cols="30" rows="5"
+                        placeholder="Comentarios" class="mensaje-reserva"></textarea>
                 </div>
 
-                <div>
-                    <input type="submit" value="Reservar">
+                <div class="input-boton-reserva">
+                    <input type="reset" class="boton-reserva1">
+                    <input type="submit" value="Reservar" class="boton-reserva2">
                 </div>
 
             </fieldset>
         </form>
 
-        <!--listado de condiciones para poder reservar (no son pasos numerados)-->
+        <!--listado de condiciones para poder reservar-->
         <div>
             <ul>
-                <li>condicion de reserva 1</li>
-                <li>condicion de reserva 2</li>
-                <li>condicion de reserva 3</li>
+                <li>Las reservas se pueden efectuar desde el día anterior a la fecha requerida.</li>
+                <li>La cantidad máxima por este medio son 8 personas.</li>
+                <li>Cantidades mayores comuníquese al 4382-6260.</li>
+                <li>Tolerancia de 15 minutos.</li>
+                <li>Para ser ubicados deberá estar presente el 50% del grupo.</li>
             </ul>
         </div>
 
         <!--telefono para poder reservar-->
         <div>
             <h2>O llamanos al</h2>
-            <p>numero de telefono de contacto</p>
+            <p>+54 11 4382-6260</p>
         </div>
 
     </main>
