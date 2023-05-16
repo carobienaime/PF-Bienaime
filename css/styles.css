@@ -505,7 +505,8 @@ footer .derechos-footer {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, auto);
     grid-template-areas: "nombre nombre nombre apellido apellido apellido" "telefono telefono telefono email email email" "comensal comensal fecha fecha horario horario" "mensaje mensaje mensaje mensaje mensaje mensaje" ". . boton boton . .";
-    column-gap: 0.8rem; }
+    justify-items: center;
+    align-items: center; }
     main .formulario-reserva fieldset .input-reserva1 {
       grid-area: nombre; }
       main .formulario-reserva fieldset .input-reserva1 .nombre-reserva {
@@ -566,6 +567,8 @@ footer .derechos-footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
+    justify-items: start;
+    align-items: start;
     margin-left: 1.2rem;
     margin-right: 2rem; }
     main .condiciones-reserva .condicion1 {

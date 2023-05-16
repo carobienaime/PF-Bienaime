@@ -55,7 +55,8 @@
                 "comensal comensal fecha fecha horario horario"
                 "mensaje mensaje mensaje mensaje mensaje mensaje"
                 ". . boton boton . .";
-                column-gap: 0.8rem;
+                justify-items: center;
+                align-items: center;
                 
                 .input-reserva1{
                     grid-area: nombre;
@@ -149,6 +150,8 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(3, auto);
+            justify-items: start;
+            align-items: start;
             margin-left: 1.2rem;
             margin-right: 2rem;
 
