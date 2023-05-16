@@ -31,6 +31,56 @@
         }
     }
 
+    /*estilos del main de la Seccion Menu*/
+
+    main{
+        .subtitulo-menu{
+            .h2-menu{
+                font-size: 1.3rem;
+            }
+        }
+
+        .cont-menu{
+            margin-top: 2.5rem;
+            margin-bottom: 3.5rem;
+            gap: 3.5rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+
+            .cont-menu2{
+                gap: 1rem;
+                .h2-menu2{
+                    font-size: 1.3rem;
+                }
+
+                .lista-menu{
+                    gap: 1.3rem;
+                    .item-lista-menu{
+                        gap: 0.8rem;
+
+                        .nombre-plato{
+                            font-size: 1rem;
+                        }
+
+                        .descrip-plato{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+        .galeria-menu{
+
+        }
+
+    }
+
+
+
+
     /*estilos del main de la Seccion Reservas*/
 
     main{

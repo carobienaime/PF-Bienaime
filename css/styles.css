@@ -691,6 +691,27 @@ footer .derechos-footer {
   /*estilos del titulo principal de las secciones*/
   main .cont-secc .titulo-secc {
     font-size: 1.4rem; }
+  /*estilos del main de la Seccion Menu*/
+  main .subtitulo-menu .h2-menu {
+    font-size: 1.3rem; }
+  main .cont-menu {
+    margin-top: 2.5rem;
+    margin-bottom: 3.5rem;
+    gap: 3.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem; }
+    main .cont-menu .cont-menu2 {
+      gap: 1rem; }
+      main .cont-menu .cont-menu2 .h2-menu2 {
+        font-size: 1.3rem; }
+      main .cont-menu .cont-menu2 .lista-menu {
+        gap: 1.3rem; }
+        main .cont-menu .cont-menu2 .lista-menu .item-lista-menu {
+          gap: 0.8rem; }
+          main .cont-menu .cont-menu2 .lista-menu .item-lista-menu .nombre-plato {
+            font-size: 1rem; }
+          main .cont-menu .cont-menu2 .lista-menu .item-lista-menu .descrip-plato {
+            font-size: 1rem; }
   /*estilos del main de la Seccion Reservas*/
   main .subtitulos-reservas .h2-reservas {
     font-size: 1.3rem; }
