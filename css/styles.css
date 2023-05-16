@@ -840,8 +840,14 @@ footer .derechos-footer {
         font-size: 0.9rem; }
     main .formulario-contacto fieldset .input-contacto-reset {
       grid-area: reset; }
+      main .formulario-contacto fieldset .input-contacto-reset .boton-contacto1 {
+        font-size: 0.9rem;
+        padding: 0.5rem; }
     main .formulario-contacto fieldset .input-contacto-submit {
       grid-area: submit; }
+      main .formulario-contacto fieldset .input-contacto-submit .boton-contacto2 {
+        font-size: 0.9rem;
+        padding: 0.5rem; }
   /*estilos del footer de mi sitio web*/
   footer .sections-footer {
     display: grid;
