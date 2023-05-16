@@ -301,7 +301,67 @@
             }
         }
 
+        .sections-contacto{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, auto);
+            justify-items: center;
+            align-items: baseline;
+            row-gap: 3rem;
+            column-gap: 0rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
 
+            div{
+                .h2-contacto{
+                    font-size: 1.3rem;
+                }
+
+                div{
+                    .p-contacto{
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+
+            .ubicacion-contacto{
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+
+                .icono-ubicacion{
+                    font-size: 1.9rem;        
+                }
+
+            }
+
+            .horarios-contacto{
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+
+                .icono-horarios{
+                    font-size: 1.9rem;
+                }
+            }
+
+            .telefono-contacto{
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+
+                .icono-telefono{
+                    font-size: 1.9rem;
+                }
+            }
+
+            .email-contacto{
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+
+                .icono-email{
+                    font-size: 1.9rem;
+                }
+            }
+
+        }
 
     }
 
