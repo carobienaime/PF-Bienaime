@@ -73,12 +73,64 @@
         }
 
         .galeria-menu{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, auto);
+            grid-template-areas: 
+            "entrada1 entrada2 sopa1"
+            "principal1 principal2 guarnicion1"
+            "guarnicion2 postre1 postre2";
+            justify-items: center;
+            align-items: center;
+            gap: 0rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            margin-bottom: 4rem;
+
+            .entrada1{
+                grid-area: entrada1;
+            }
+
+            .entrada2{
+                grid-area: entrada2;
+                display: block;
+                
+            }
+
+            .sopa1{
+                grid-area: sopa1;
+            }
+
+            .principal1{
+                grid-area: principal1;
+            }
+
+            .principal2{
+                grid-area: principal2;
+                display: block;
+            }
+
+            .guarnicion1{
+                grid-area: guarnicion1;
+            }
+
+            .guarnicion2{
+                grid-area: guarnicion2;
+                display: block;
+            }
+
+            .postre1{
+                grid-area: postre1;
+            }
+
+            .postre2{
+                grid-area: postre2;
+                display: block;
+            }
 
         }
 
     }
-
-
 
 
     /*estilos del main de la Seccion Reservas*/
