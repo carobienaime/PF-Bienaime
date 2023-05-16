@@ -24,35 +24,46 @@ main{
         margin-bottom: 3rem;
         @include flex2;
         gap: 3rem;
+        @include margin-mobile;
 
         .cont-menu2{
             @include flex3;
 
             .h2-menu2{
-
+                font-size: 1.1rem;
+                font-family: 'Playfair Display', serif;
+                color: $color-txt1;
+                margin-bottom: 0rem;
+                font-weight: 600;
             }
 
             .lista-menu{
                 list-style: none;
                 @include flex2;
-                gap: 1rem;
+                gap: 1.2rem;
                 margin-bottom: 0;
                 padding-left: 0;
 
                 .item-lista-menu{
                     @include flex2;
+                    gap: 0.5rem;
 
                     .nombre-plato{
+                        text-align: center;
+                        font-size: 0.9rem;
                         font-weight: 600;
-                        margin-bottom: 0;
-                        padding: 0.5rem;
-                        color: black;
+                        font-family: 'Open Sans', sans-serif;
+                        color: $color-txt2;
+                        margin-bottom: 0rem;
                     }
 
                     .descrip-plato{
+                        text-align: center;
+                        font-size: 0.9rem;
                         font-style: oblique;
-                        color: black;
-                        margin-bottom: 0;
+                        font-family: 'Open Sans', sans-serif;
+                        color: $color-txt2;
+                        margin-bottom: 0rem;
                     }
 
 
@@ -66,10 +77,26 @@ main{
         @include flex2;
         gap: 1rem;
         @include margin-mobile;
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
 
         .img-menu{
             @include img(100%, 100%);
+        }
+
+        .entrada2{
+            @extend %display-none;
+        }
+
+        .principal2{
+            @extend %display-none;
+        }
+
+        .guarnicion2{
+            @extend %display-none;
+        }
+
+        .postre2{
+            @extend %display-none;
         }
 
     }

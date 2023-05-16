@@ -35,7 +35,7 @@ main .cont-secc {
     font-weight: 600; }
 
 /*estilos del main de la Seccion Nosotros - version mobile*/
-footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
+main .galeria-menu .entrada2, main .galeria-menu .principal2, main .galeria-menu .guarnicion2, main .galeria-menu .postre2, footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
 main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-contacto fieldset .input-contacto1, main .formulario-contacto fieldset .input-contacto2, main .formulario-contacto fieldset .input-contacto3, main .formulario-contacto fieldset .input-contacto4, main .formulario-contacto fieldset .input-contacto5, main .formulario-contacto fieldset .input-contacto6, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
@@ -113,7 +113,7 @@ main .main-nosotros {
       height: 100%; }
 
 /*estilos del main de la Seccion Menu - version mobile*/
-footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
+main .galeria-menu .entrada2, main .galeria-menu .principal2, main .galeria-menu .guarnicion2, main .galeria-menu .postre2, footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
 main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-contacto fieldset .input-contacto1, main .formulario-contacto fieldset .input-contacto2, main .formulario-contacto fieldset .input-contacto3, main .formulario-contacto fieldset .input-contacto4, main .formulario-contacto fieldset .input-contacto5, main .formulario-contacto fieldset .input-contacto6, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
@@ -161,36 +161,50 @@ main .cont-menu {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem; }
+  gap: 3rem;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem; }
   main .cont-menu .cont-menu2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 0.8rem; }
+    main .cont-menu .cont-menu2 .h2-menu2 {
+      font-size: 1.1rem;
+      font-family: 'Playfair Display', serif;
+      color: #151515;
+      margin-bottom: 0rem;
+      font-weight: 600; }
     main .cont-menu .cont-menu2 .lista-menu {
       list-style: none;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 1rem;
+      gap: 1.2rem;
       margin-bottom: 0;
       padding-left: 0; }
       main .cont-menu .cont-menu2 .lista-menu .item-lista-menu {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        gap: 0.5rem; }
         main .cont-menu .cont-menu2 .lista-menu .item-lista-menu .nombre-plato {
+          text-align: center;
+          font-size: 0.9rem;
           font-weight: 600;
-          margin-bottom: 0;
-          padding: 0.5rem;
-          color: black; }
+          font-family: 'Open Sans', sans-serif;
+          color: #212324;
+          margin-bottom: 0rem; }
         main .cont-menu .cont-menu2 .lista-menu .item-lista-menu .descrip-plato {
+          text-align: center;
+          font-size: 0.9rem;
           font-style: oblique;
-          color: black;
-          margin-bottom: 0; }
+          font-family: 'Open Sans', sans-serif;
+          color: #212324;
+          margin-bottom: 0rem; }
 
 main .galeria-menu {
   display: flex;
@@ -200,13 +214,13 @@ main .galeria-menu {
   gap: 1rem;
   margin-left: 1.2rem;
   margin-right: 1.2rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 3rem; }
   main .galeria-menu .img-menu {
     width: 100%;
     height: 100%; }
 
 /*estilos del main de la Seccion Reservas - version mobile*/
-footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
+main .galeria-menu .entrada2, main .galeria-menu .principal2, main .galeria-menu .guarnicion2, main .galeria-menu .postre2, footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
 main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-contacto fieldset .input-contacto1, main .formulario-contacto fieldset .input-contacto2, main .formulario-contacto fieldset .input-contacto3, main .formulario-contacto fieldset .input-contacto4, main .formulario-contacto fieldset .input-contacto5, main .formulario-contacto fieldset .input-contacto6, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
@@ -385,7 +399,7 @@ main .h2-p-reserva {
     font-weight: 600; }
 
 /*estilos del main de la Seccion Reservas - version mobile*/
-footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
+main .galeria-menu .entrada2, main .galeria-menu .principal2, main .galeria-menu .guarnicion2, main .galeria-menu .postre2, footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
 main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-contacto fieldset .input-contacto1, main .formulario-contacto fieldset .input-contacto2, main .formulario-contacto fieldset .input-contacto3, main .formulario-contacto fieldset .input-contacto4, main .formulario-contacto fieldset .input-contacto5, main .formulario-contacto fieldset .input-contacto6, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
@@ -570,7 +584,7 @@ main .mapa-contacto {
     width: 100%; }
 
 /*estilos del footer de mi sitio web - version mobile*/
-footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
+main .galeria-menu .entrada2, main .galeria-menu .principal2, main .galeria-menu .guarnicion2, main .galeria-menu .postre2, footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
 main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-contacto fieldset .input-contacto1, main .formulario-contacto fieldset .input-contacto2, main .formulario-contacto fieldset .input-contacto3, main .formulario-contacto fieldset .input-contacto4, main .formulario-contacto fieldset .input-contacto5, main .formulario-contacto fieldset .input-contacto6, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
