@@ -1135,6 +1135,59 @@ footer .derechos-footer {
       font-size: 1.4rem; }
     main .h2-p-reserva .p-telefono {
       font-size: 1.1rem; }
+  /*estilos del main de la Seccion Contacto*/
+  main .subtitulos-contacto {
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
+    main .subtitulos-contacto .h2-contacto {
+      font-size: 1.4rem;
+      padding-bottom: 1rem; }
+  main .formulario-contacto fieldset {
+    gap: 1rem; }
+    main .formulario-contacto fieldset .input-contacto1 .input-nombre {
+      margin-left: 10rem;
+      padding: 0.6rem; }
+      main .formulario-contacto fieldset .input-contacto1 .input-nombre:focus {
+        box-shadow: 0px 0px 5px 0px black;
+        -webkit-box-shadow: 0px 0px 5px 0px black;
+        -moz-box-shadow: 0px 0px 5px 0px black; }
+    main .formulario-contacto fieldset .input-contacto2 .input-apellido {
+      margin-right: 10rem;
+      padding: 0.6rem; }
+      main .formulario-contacto fieldset .input-contacto2 .input-apellido:focus {
+        box-shadow: 0px 0px 5px 0px black;
+        -webkit-box-shadow: 0px 0px 5px 0px black;
+        -moz-box-shadow: 0px 0px 5px 0px black; }
+    main .formulario-contacto fieldset .input-contacto3 .input-telefono {
+      margin-left: 10rem;
+      padding: 0.6rem; }
+      main .formulario-contacto fieldset .input-contacto3 .input-telefono:focus {
+        box-shadow: 0px 0px 5px 0px black;
+        -webkit-box-shadow: 0px 0px 5px 0px black;
+        -moz-box-shadow: 0px 0px 5px 0px black; }
+    main .formulario-contacto fieldset .input-contacto4 .input-email {
+      margin-right: 10rem;
+      padding: 0.6rem; }
+      main .formulario-contacto fieldset .input-contacto4 .input-email:focus {
+        box-shadow: 0px 0px 5px 0px black;
+        -webkit-box-shadow: 0px 0px 5px 0px black;
+        -moz-box-shadow: 0px 0px 5px 0px black; }
+    main .formulario-contacto fieldset .input-contacto5 .input-asunto {
+      margin-left: 10rem;
+      margin-right: 10rem;
+      padding: 0.6rem; }
+      main .formulario-contacto fieldset .input-contacto5 .input-asunto:focus {
+        box-shadow: 0px 0px 5px 0px black;
+        -webkit-box-shadow: 0px 0px 5px 0px black;
+        -moz-box-shadow: 0px 0px 5px 0px black; }
+    main .formulario-contacto fieldset .input-contacto6 .input-mensaje {
+      margin-left: 10rem;
+      margin-right: 10rem;
+      padding: 0.6rem; }
+      main .formulario-contacto fieldset .input-contacto6 .input-mensaje:focus {
+        box-shadow: 0px 0px 5px 0px black;
+        -webkit-box-shadow: 0px 0px 5px 0px black;
+        -moz-box-shadow: 0px 0px 5px 0px black; }
   /*estilos del footer de mi sitio web*/
   footer .sections-footer {
     grid-template-columns: repeat(4, 1fr);

@@ -346,6 +346,118 @@
         }
     }
 
+    /*estilos del main de la Seccion Contacto*/
+    main{
+        .subtitulos-contacto{
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+
+            .h2-contacto{
+                font-size: 1.4rem;
+                padding-bottom: 1rem;
+            }
+        }
+
+        .formulario-contacto{
+            fieldset{
+                gap: 1rem;
+
+                .input-contacto1{
+                    .input-nombre{
+                        margin-left: 10rem;
+                        padding: 0.6rem;
+
+                        &:focus{
+                            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                            -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                            -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                        }
+                    }
+                }
+
+                .input-contacto2{
+                    .input-apellido{
+                        margin-right: 10rem;
+                        padding: 0.6rem;
+
+                        &:focus{
+                            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                            -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                            -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                        }
+                    }
+                }
+
+                .input-contacto3{
+                    .input-telefono{
+                        margin-left: 10rem;
+                        padding: 0.6rem;
+
+                        &:focus{
+                            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                            -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                            -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                        }
+                        
+                    }
+                }
+
+                .input-contacto4{
+                    .input-email{
+                        margin-right: 10rem;
+                        padding: 0.6rem;
+
+                        &:focus{
+                            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                            -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                            -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                        }
+                    }
+                }
+
+                .input-contacto5{
+                    .input-asunto{
+                        margin-left: 10rem;
+                        margin-right: 10rem;
+                        padding: 0.6rem;
+
+                        &:focus{
+                            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                            -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                            -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                        }
+                    }
+                }
+
+                .input-contacto6{
+                    .input-mensaje{
+                        margin-left: 10rem;
+                        margin-right: 10rem;
+                        padding: 0.6rem;
+
+                        &:focus{
+                            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                            -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                            -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+                        }
+                    }
+                }
+
+                .input-contacto-reset{
+                    .boton-contacto1{}
+                }
+
+                .input-contacto-submit{
+                    .boton-contacto2{}
+                }
+
+            }
+        }
+
+
+
+    }
+
 
     /*estilos del footer de mi sitio web*/
 
