@@ -38,12 +38,12 @@ main .cont-secc {
 footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
-main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-reserva fieldset .input-boton-reserva, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-reserva fieldset .input-boton-reserva, main .formulario-contacto fieldset .input-contacto1, main .formulario-contacto fieldset .input-contacto2, main .formulario-contacto fieldset .input-contacto3, main .formulario-contacto fieldset .input-contacto4, main .formulario-contacto fieldset .input-contacto5, main .formulario-contacto fieldset .input-contacto6, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
+main .sections-contacto .ubicacion-contacto, main .sections-contacto .horarios-contacto, main .sections-contacto .telefono-contacto, main .sections-contacto .email-contacto, footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,7 +62,7 @@ footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsl
   margin-bottom: 0;
   font-family: 'Playfair Display', serif; }
 
-main .formulario-reserva fieldset .input-reserva1 .nombre-reserva, main .formulario-reserva fieldset .input-reserva2 .apellido-reserva, main .formulario-reserva fieldset .input-reserva3 .telefono-reserva, main .formulario-reserva fieldset .input-reserva4 .email-reserva, main .formulario-reserva fieldset .input-reserva5 .comensales-reserva, main .formulario-reserva fieldset .input-reserva6 .fecha-reserva, main .formulario-reserva fieldset .input-reserva7 .horario-reserva, main .formulario-reserva fieldset .input-reserva8 .mensaje-reserva {
+main .formulario-reserva fieldset .input-reserva1 .nombre-reserva, main .formulario-reserva fieldset .input-reserva2 .apellido-reserva, main .formulario-reserva fieldset .input-reserva3 .telefono-reserva, main .formulario-reserva fieldset .input-reserva4 .email-reserva, main .formulario-reserva fieldset .input-reserva5 .comensales-reserva, main .formulario-reserva fieldset .input-reserva6 .fecha-reserva, main .formulario-reserva fieldset .input-reserva7 .horario-reserva, main .formulario-reserva fieldset .input-reserva8 .mensaje-reserva, main .formulario-contacto fieldset .input-contacto1 .input-nombre, main .formulario-contacto fieldset .input-contacto2 .input-apellido, main .formulario-contacto fieldset .input-contacto3 .input-telefono, main .formulario-contacto fieldset .input-contacto4 .input-email, main .formulario-contacto fieldset .input-contacto5 .input-asunto, main .formulario-contacto fieldset .input-contacto6 .input-mensaje {
   font-size: 0.8rem;
   border: 1px solid #c8ccd5;
   background-color: whitesmoke;
@@ -122,12 +122,12 @@ main .main-nosotros {
 footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
-main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-reserva fieldset .input-boton-reserva, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-reserva fieldset .input-boton-reserva, main .formulario-contacto fieldset .input-contacto1, main .formulario-contacto fieldset .input-contacto2, main .formulario-contacto fieldset .input-contacto3, main .formulario-contacto fieldset .input-contacto4, main .formulario-contacto fieldset .input-contacto5, main .formulario-contacto fieldset .input-contacto6, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
+main .sections-contacto .ubicacion-contacto, main .sections-contacto .horarios-contacto, main .sections-contacto .telefono-contacto, main .sections-contacto .email-contacto, footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -146,7 +146,7 @@ footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsl
   margin-bottom: 0;
   font-family: 'Playfair Display', serif; }
 
-main .formulario-reserva fieldset .input-reserva1 .nombre-reserva, main .formulario-reserva fieldset .input-reserva2 .apellido-reserva, main .formulario-reserva fieldset .input-reserva3 .telefono-reserva, main .formulario-reserva fieldset .input-reserva4 .email-reserva, main .formulario-reserva fieldset .input-reserva5 .comensales-reserva, main .formulario-reserva fieldset .input-reserva6 .fecha-reserva, main .formulario-reserva fieldset .input-reserva7 .horario-reserva, main .formulario-reserva fieldset .input-reserva8 .mensaje-reserva {
+main .formulario-reserva fieldset .input-reserva1 .nombre-reserva, main .formulario-reserva fieldset .input-reserva2 .apellido-reserva, main .formulario-reserva fieldset .input-reserva3 .telefono-reserva, main .formulario-reserva fieldset .input-reserva4 .email-reserva, main .formulario-reserva fieldset .input-reserva5 .comensales-reserva, main .formulario-reserva fieldset .input-reserva6 .fecha-reserva, main .formulario-reserva fieldset .input-reserva7 .horario-reserva, main .formulario-reserva fieldset .input-reserva8 .mensaje-reserva, main .formulario-contacto fieldset .input-contacto1 .input-nombre, main .formulario-contacto fieldset .input-contacto2 .input-apellido, main .formulario-contacto fieldset .input-contacto3 .input-telefono, main .formulario-contacto fieldset .input-contacto4 .input-email, main .formulario-contacto fieldset .input-contacto5 .input-asunto, main .formulario-contacto fieldset .input-contacto6 .input-mensaje {
   font-size: 0.8rem;
   border: 1px solid #c8ccd5;
   background-color: whitesmoke;
@@ -214,12 +214,12 @@ main .galeria-menu {
 footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
-main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-reserva fieldset .input-boton-reserva, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-reserva fieldset .input-boton-reserva, main .formulario-contacto fieldset .input-contacto1, main .formulario-contacto fieldset .input-contacto2, main .formulario-contacto fieldset .input-contacto3, main .formulario-contacto fieldset .input-contacto4, main .formulario-contacto fieldset .input-contacto5, main .formulario-contacto fieldset .input-contacto6, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
+main .sections-contacto .ubicacion-contacto, main .sections-contacto .horarios-contacto, main .sections-contacto .telefono-contacto, main .sections-contacto .email-contacto, footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -238,7 +238,7 @@ footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsl
   margin-bottom: 0;
   font-family: 'Playfair Display', serif; }
 
-main .formulario-reserva fieldset .input-reserva1 .nombre-reserva, main .formulario-reserva fieldset .input-reserva2 .apellido-reserva, main .formulario-reserva fieldset .input-reserva3 .telefono-reserva, main .formulario-reserva fieldset .input-reserva4 .email-reserva, main .formulario-reserva fieldset .input-reserva5 .comensales-reserva, main .formulario-reserva fieldset .input-reserva6 .fecha-reserva, main .formulario-reserva fieldset .input-reserva7 .horario-reserva, main .formulario-reserva fieldset .input-reserva8 .mensaje-reserva {
+main .formulario-reserva fieldset .input-reserva1 .nombre-reserva, main .formulario-reserva fieldset .input-reserva2 .apellido-reserva, main .formulario-reserva fieldset .input-reserva3 .telefono-reserva, main .formulario-reserva fieldset .input-reserva4 .email-reserva, main .formulario-reserva fieldset .input-reserva5 .comensales-reserva, main .formulario-reserva fieldset .input-reserva6 .fecha-reserva, main .formulario-reserva fieldset .input-reserva7 .horario-reserva, main .formulario-reserva fieldset .input-reserva8 .mensaje-reserva, main .formulario-contacto fieldset .input-contacto1 .input-nombre, main .formulario-contacto fieldset .input-contacto2 .input-apellido, main .formulario-contacto fieldset .input-contacto3 .input-telefono, main .formulario-contacto fieldset .input-contacto4 .input-email, main .formulario-contacto fieldset .input-contacto5 .input-asunto, main .formulario-contacto fieldset .input-contacto6 .input-mensaje {
   font-size: 0.8rem;
   border: 1px solid #c8ccd5;
   background-color: whitesmoke;
@@ -385,12 +385,12 @@ main .h2-p-reserva {
 footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
-main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-reserva fieldset .input-boton-reserva, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-reserva fieldset .input-boton-reserva, main .formulario-contacto fieldset .input-contacto1, main .formulario-contacto fieldset .input-contacto2, main .formulario-contacto fieldset .input-contacto3, main .formulario-contacto fieldset .input-contacto4, main .formulario-contacto fieldset .input-contacto5, main .formulario-contacto fieldset .input-contacto6, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
+main .sections-contacto .ubicacion-contacto, main .sections-contacto .horarios-contacto, main .sections-contacto .telefono-contacto, main .sections-contacto .email-contacto, footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -409,7 +409,7 @@ footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsl
   margin-bottom: 0;
   font-family: 'Playfair Display', serif; }
 
-main .formulario-reserva fieldset .input-reserva1 .nombre-reserva, main .formulario-reserva fieldset .input-reserva2 .apellido-reserva, main .formulario-reserva fieldset .input-reserva3 .telefono-reserva, main .formulario-reserva fieldset .input-reserva4 .email-reserva, main .formulario-reserva fieldset .input-reserva5 .comensales-reserva, main .formulario-reserva fieldset .input-reserva6 .fecha-reserva, main .formulario-reserva fieldset .input-reserva7 .horario-reserva, main .formulario-reserva fieldset .input-reserva8 .mensaje-reserva {
+main .formulario-reserva fieldset .input-reserva1 .nombre-reserva, main .formulario-reserva fieldset .input-reserva2 .apellido-reserva, main .formulario-reserva fieldset .input-reserva3 .telefono-reserva, main .formulario-reserva fieldset .input-reserva4 .email-reserva, main .formulario-reserva fieldset .input-reserva5 .comensales-reserva, main .formulario-reserva fieldset .input-reserva6 .fecha-reserva, main .formulario-reserva fieldset .input-reserva7 .horario-reserva, main .formulario-reserva fieldset .input-reserva8 .mensaje-reserva, main .formulario-contacto fieldset .input-contacto1 .input-nombre, main .formulario-contacto fieldset .input-contacto2 .input-apellido, main .formulario-contacto fieldset .input-contacto3 .input-telefono, main .formulario-contacto fieldset .input-contacto4 .input-email, main .formulario-contacto fieldset .input-contacto5 .input-asunto, main .formulario-contacto fieldset .input-contacto6 .input-mensaje {
   font-size: 0.8rem;
   border: 1px solid #c8ccd5;
   background-color: whitesmoke;
@@ -419,16 +419,169 @@ main .formulario-reserva fieldset .input-reserva1 .nombre-reserva, main .formula
   outline: none;
   padding: 0.4rem; }
 
+main .subtitulos-contacto {
+  text-align: center;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem; }
+  main .subtitulos-contacto .h2-contacto {
+    font-size: 1.1rem;
+    font-family: 'Playfair Display', serif;
+    color: #151515;
+    margin-bottom: 0rem;
+    padding-bottom: 0.8rem; }
+  main .subtitulos-contacto .p-contacto {
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #212324;
+    margin-bottom: 0rem; }
+  main .subtitulos-contacto .f-weight {
+    font-weight: 650; }
+
+main .formulario-contacto {
+  width: 100%; }
+  main .formulario-contacto fieldset {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas: "nombre nombre" "apellido apellido" "telefono telefono" "email email" "asunto asunto" "mensaje mensaje" "reset submit";
+    justify-items: center;
+    align-items: center;
+    gap: 0.8rem; }
+    main .formulario-contacto fieldset legend {
+      display: none; }
+    main .formulario-contacto fieldset div label {
+      display: none; }
+    main .formulario-contacto fieldset .input-contacto1 {
+      width: 100%;
+      grid-area: nombre; }
+      main .formulario-contacto fieldset .input-contacto1 .input-nombre {
+        width: 95%; }
+    main .formulario-contacto fieldset .input-contacto2 {
+      width: 100%;
+      grid-area: apellido; }
+      main .formulario-contacto fieldset .input-contacto2 .input-apellido {
+        width: 95%; }
+    main .formulario-contacto fieldset .input-contacto3 {
+      width: 100%;
+      grid-area: telefono; }
+      main .formulario-contacto fieldset .input-contacto3 .input-telefono {
+        width: 95%; }
+    main .formulario-contacto fieldset .input-contacto4 {
+      width: 100%;
+      grid-area: email; }
+      main .formulario-contacto fieldset .input-contacto4 .input-email {
+        width: 95%; }
+    main .formulario-contacto fieldset .input-contacto5 {
+      width: 100%;
+      grid-area: asunto; }
+      main .formulario-contacto fieldset .input-contacto5 .input-asunto {
+        width: 95%; }
+    main .formulario-contacto fieldset .input-contacto6 {
+      width: 100%;
+      grid-area: mensaje; }
+      main .formulario-contacto fieldset .input-contacto6 .input-mensaje {
+        width: 95%; }
+    main .formulario-contacto fieldset .input-contacto-reset {
+      grid-area: reset;
+      justify-self: end; }
+      main .formulario-contacto fieldset .input-contacto-reset .boton-contacto1 {
+        font-size: 0.8rem;
+        border: 1px solid #b47e1e;
+        background-color: #b47e1e;
+        border-radius: 0.3rem;
+        font-family: 'Open Sans', sans-serif;
+        color: whitesmoke;
+        outline: none;
+        padding: 0.4rem;
+        text-align: center; }
+    main .formulario-contacto fieldset .input-contacto-submit {
+      grid-area: submit;
+      justify-self: start; }
+      main .formulario-contacto fieldset .input-contacto-submit .boton-contacto2 {
+        font-size: 0.8rem;
+        border: 1px solid #b47e1e;
+        background-color: #b47e1e;
+        border-radius: 0.3rem;
+        font-family: 'Open Sans', sans-serif;
+        color: whitesmoke;
+        outline: none;
+        padding: 0.4rem;
+        text-align: center; }
+
+main .sections-contacto {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem; }
+  main .sections-contacto div .h2-contacto {
+    font-size: 1.1rem;
+    font-family: 'Playfair Display', serif;
+    color: #151515;
+    margin-bottom: 0rem; }
+  main .sections-contacto div div .p-contacto {
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #212324;
+    margin-bottom: 0rem; }
+  main .sections-contacto .ubicacion-contacto .icono-ubicacion {
+    color: #b47e1e;
+    font-size: 1.8rem; }
+  main .sections-contacto .ubicacion-contacto .p-ubicacion-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem; }
+  main .sections-contacto .horarios-contacto .icono-horarios {
+    color: #b47e1e;
+    font-size: 1.8rem; }
+  main .sections-contacto .horarios-contacto .p-horarios-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem; }
+  main .sections-contacto .telefono-contacto .icono-telefono {
+    color: #b47e1e;
+    font-size: 1.8rem; }
+  main .sections-contacto .telefono-contacto .p-telefono-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  main .sections-contacto .email-contacto .icono-email {
+    color: #b47e1e;
+    font-size: 1.8rem; }
+  main .sections-contacto .email-contacto .p-email-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+main .mapa-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem; }
+  main .mapa-contacto iframe {
+    width: 100%; }
+
 /*estilos del footer de mi sitio web - version mobile*/
 footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
-main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-reserva fieldset .input-boton-reserva, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-reserva fieldset .input-boton-reserva, main .formulario-contacto fieldset .input-contacto1, main .formulario-contacto fieldset .input-contacto2, main .formulario-contacto fieldset .input-contacto3, main .formulario-contacto fieldset .input-contacto4, main .formulario-contacto fieldset .input-contacto5, main .formulario-contacto fieldset .input-contacto6, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
+main .sections-contacto .ubicacion-contacto, main .sections-contacto .horarios-contacto, main .sections-contacto .telefono-contacto, main .sections-contacto .email-contacto, footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -447,7 +600,7 @@ footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsl
   margin-bottom: 0;
   font-family: 'Playfair Display', serif; }
 
-main .formulario-reserva fieldset .input-reserva1 .nombre-reserva, main .formulario-reserva fieldset .input-reserva2 .apellido-reserva, main .formulario-reserva fieldset .input-reserva3 .telefono-reserva, main .formulario-reserva fieldset .input-reserva4 .email-reserva, main .formulario-reserva fieldset .input-reserva5 .comensales-reserva, main .formulario-reserva fieldset .input-reserva6 .fecha-reserva, main .formulario-reserva fieldset .input-reserva7 .horario-reserva, main .formulario-reserva fieldset .input-reserva8 .mensaje-reserva {
+main .formulario-reserva fieldset .input-reserva1 .nombre-reserva, main .formulario-reserva fieldset .input-reserva2 .apellido-reserva, main .formulario-reserva fieldset .input-reserva3 .telefono-reserva, main .formulario-reserva fieldset .input-reserva4 .email-reserva, main .formulario-reserva fieldset .input-reserva5 .comensales-reserva, main .formulario-reserva fieldset .input-reserva6 .fecha-reserva, main .formulario-reserva fieldset .input-reserva7 .horario-reserva, main .formulario-reserva fieldset .input-reserva8 .mensaje-reserva, main .formulario-contacto fieldset .input-contacto1 .input-nombre, main .formulario-contacto fieldset .input-contacto2 .input-apellido, main .formulario-contacto fieldset .input-contacto3 .input-telefono, main .formulario-contacto fieldset .input-contacto4 .input-email, main .formulario-contacto fieldset .input-contacto5 .input-asunto, main .formulario-contacto fieldset .input-contacto6 .input-mensaje {
   font-size: 0.8rem;
   border: 1px solid #c8ccd5;
   background-color: whitesmoke;
@@ -639,6 +792,56 @@ footer .derechos-footer {
       font-size: 1.3rem; }
     main .h2-p-reserva .p-telefono {
       font-size: 1rem; }
+  /*estilos del main de la Seccion Contacto*/
+  main .subtitulos-contacto .h2-contacto {
+    font-size: 1.3rem; }
+  main .subtitulos-contacto .p-contacto {
+    font-size: 0.9rem; }
+  main .formulario-contacto fieldset {
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "nombre apellido" "telefono email" "asunto asunto" "mensaje mensaje" "reset submit"; }
+    main .formulario-contacto fieldset .input-contacto1 {
+      grid-area: nombre; }
+      main .formulario-contacto fieldset .input-contacto1 .inpunt-nombre {
+        width: 100%;
+        margin-left: 2rem;
+        font-size: 0.9rem; }
+    main .formulario-contacto fieldset .input-contacto2 {
+      grid-area: apellido; }
+      main .formulario-contacto fieldset .input-contacto2 .inpunt-apellido {
+        width: 100%;
+        margin-right: 2rem;
+        font-size: 0.9rem; }
+    main .formulario-contacto fieldset .input-contacto3 {
+      grid-area: telefono; }
+      main .formulario-contacto fieldset .input-contacto3 .inpunt-telefono {
+        width: 100%;
+        margin-left: 2rem;
+        font-size: 0.9rem; }
+    main .formulario-contacto fieldset .input-contacto4 {
+      grid-area: email; }
+      main .formulario-contacto fieldset .input-contacto4 .inpunt-email {
+        width: 100%;
+        margin-right: 2rem;
+        font-size: 0.9rem; }
+    main .formulario-contacto fieldset .input-contacto5 {
+      grid-area: asunto; }
+      main .formulario-contacto fieldset .input-contacto5 .inpunt-asunto {
+        width: 100%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 0.9rem; }
+    main .formulario-contacto fieldset .input-contacto6 {
+      grid-area: mensaje; }
+      main .formulario-contacto fieldset .input-contacto6 .inpunt-mensaje {
+        width: 100%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 0.9rem; }
+    main .formulario-contacto fieldset .input-contacto-reset {
+      grid-area: reset; }
+    main .formulario-contacto fieldset .input-contacto-submit {
+      grid-area: submit; }
   /*estilos del footer de mi sitio web*/
   footer .sections-footer {
     display: grid;

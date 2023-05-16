@@ -203,6 +203,107 @@
         }
     }
 
+    /*estilos del main de la Seccion Contacto*/
+
+    main{
+        .subtitulos-contacto{
+            .h2-contacto{
+                font-size: 1.3rem;
+            }
+
+            .p-contacto{
+                font-size: 0.9rem;
+            }
+        }
+
+        .formulario-contacto{
+            fieldset{
+                grid-template-rows: repeat(5, auto);
+                grid-template-areas:
+                "nombre apellido"
+                "telefono email"
+                "asunto asunto"
+                "mensaje mensaje"
+                "reset submit";
+                
+                .input-contacto1{
+                    grid-area: nombre;
+                    .inpunt-nombre{
+                        width: 100%;
+                        margin-left: 2rem;
+                        font-size: 0.9rem;
+                    }
+                }
+
+                .input-contacto2{
+                    grid-area: apellido;
+                    .inpunt-apellido{
+                        width: 100%;
+                        margin-right: 2rem;
+                        font-size: 0.9rem;
+                    }
+                }
+
+                .input-contacto3{
+                    grid-area: telefono;
+                    .inpunt-telefono{
+                        width: 100%;
+                        margin-left: 2rem;
+                        font-size: 0.9rem;
+                    }
+                }
+
+                .input-contacto4{
+                    grid-area: email;
+                    .inpunt-email{
+                        width: 100%;
+                        margin-right: 2rem;
+                        font-size: 0.9rem;
+                    }
+                }
+
+                .input-contacto5{
+                    grid-area: asunto;
+                    .inpunt-asunto{
+                        width: 100%;
+                        margin-left: 2rem;
+                        margin-right: 2rem;
+                        font-size: 0.9rem;
+                    }
+                }
+
+                .input-contacto6{
+                    grid-area: mensaje;
+                    .inpunt-mensaje{
+                        width: 100%;
+                        margin-left: 2rem;
+                        margin-right: 2rem;
+                        font-size: 0.9rem;
+                    }
+                }
+
+                .input-contacto-reset{
+                    grid-area: reset;
+                    .boton-contacto1{
+
+                    }
+                }
+
+                .input-contacto-submit{
+                    grid-area: submit;
+                    .boton-contacto2{
+                        
+                    }
+                }
+
+
+            }
+        }
+
+
+
+    }
+
 
     /*estilos del footer de mi sitio web*/
 
