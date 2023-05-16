@@ -1065,27 +1065,31 @@ footer .derechos-footer {
       margin-left: 0;
       margin-right: 2.2rem; }
   /*estilos del main de la Seccion Menu*/
-  main .cont-menu {
-    gap: 3.8rem;
+  main .subtitulo-menu {
     margin-top: 3rem;
     margin-bottom: 3rem; }
-    main .cont-menu .cont-menu2 .h2-secc {
-      font-size: 1.5rem; }
-    main .cont-menu .cont-menu2 .lista-menu .item-lista-menu .nombre-plato {
-      font-size: 1.2rem; }
-    main .cont-menu .cont-menu2 .lista-menu .item-lista-menu .descrip-plato {
-      font-size: 1.2rem; }
-    main .cont-menu .cont-h2-menu {
-      padding-bottom: 0; }
+    main .subtitulo-menu .h2-menu {
+      font-size: 1.4rem; }
+  main .cont-menu {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    gap: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem; }
+    main .cont-menu .cont-menu2 {
+      gap: 1.5rem; }
+      main .cont-menu .cont-menu2 .h2-menu2 {
+        font-size: 1.4rem; }
+      main .cont-menu .cont-menu2 .lista-menu {
+        gap: 1.5rem; }
+        main .cont-menu .cont-menu2 .lista-menu .item-lista-menu .nombre-plato {
+          font-size: 1.1rem; }
+        main .cont-menu .cont-menu2 .lista-menu .item-lista-menu .descrip-plato {
+          font-size: 1.1rem; }
   main .galeria-menu {
-    flex-direction: row;
-    gap: 1.5rem;
-    margin-left: 0.7rem;
-    margin-right: 0.7rem;
-    margin-bottom: 2.7rem; }
-    main .galeria-menu .img-menu {
-      width: 30%;
-      height: 30%; }
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem; }
   /*estilos del main de la Seccion Reservas*/
   main .subtitulos-reservas {
     margin-top: 3rem;

@@ -97,45 +97,49 @@
     /*estilos del main de la Seccion Menu*/
 
     main {
-        .cont-menu {
-            gap: 3.8rem;
+        .subtitulo-menu {
             margin-top: 3rem;
             margin-bottom: 3rem;
-
-            .cont-menu2 {
-                .h2-secc {
-                    font-size: 1.5rem;
-                }
-
-                .lista-menu {
-                    .item-lista-menu {
-                        .nombre-plato {
-                            font-size: 1.2rem;
-                        }
-
-                        .descrip-plato {
-                            font-size: 1.2rem;
-                        }
-                    }
-                }
+            .h2-menu{
+                font-size: 1.4rem;
             }
-
-            .cont-h2-menu {
-                padding-bottom: 0;
-            }
-
         }
 
-        .galeria-menu {
-            flex-direction: row;
-            gap: 1.5rem;
-            margin-left: 0.7rem;
-            margin-right: 0.7rem;
-            margin-bottom: 2.7rem;
+        .cont-menu {
+            margin-top: 3rem;
+            margin-bottom: 4rem;
+            gap: 4rem;
+            margin-left: 10rem;
+            margin-right: 10rem;
+            
+            .cont-menu2{
+                gap: 1.5rem;
+                .h2-menu2{
+                    font-size: 1.4rem;
+                }
 
-            .img-menu {
-                @include img(30%, 30%);
+                .lista-menu{
+                    gap: 1.5rem;
+                    .item-lista-menu{
+                        .nombre-plato{
+                            font-size: 1.1rem;
+                        }
+
+                        .descrip-plato{
+                            font-size: 1.1rem;
+                        }
+
+                    }
+
+                }
             }
+
+        }    
+
+        .galeria-menu {
+            margin-bottom: 5rem;
+            margin-left: 10rem;
+            margin-right: 10rem;
         }
     }
 
