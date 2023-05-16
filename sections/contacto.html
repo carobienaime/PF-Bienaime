@@ -86,43 +86,53 @@
             <h1 class="titulo-secc">Contacto</h1>
         </div>
 
-        <!--subtitulo + texto de indicacion de la seccion Contacto-->
-        <h2>Contactenos</h2>
-        <p>Deje su mensaje y le responderemos a la brevedad.</p>
+        <!--Subtitulo + texto de la seccion Contacto-->
+
+        <div></div>
+        <h2>Contáctenos</h2>
+        <p>Envíenos su consulta o su comentario y nos comunicaremos a la brevedad. No se toman reservas por este medio.</p>
 
         <!--formulario de contacto-->
         <form>
             <fieldset>
                 <legend>formulario de contacto</legend>
                 <div>
-                    <label for="nombre">Nombre y Apellido</label>
-                    <input type="text" name="nombres" id="nombre" placeholder="Nombre y Apellido">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
                 </div>
 
                 <div>
-                    <label for="telefono">Telefono</label>
-                    <input type="number" name="telefono" id="telefono" placeholder="sin 0 y sin 15">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+                </div>
+
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input type="number" name="telefono" id="telefono" placeholder="Teléfono">
                 </div>
 
                 <div>
                     <label for="email">Email</label>
-                    <input type="email" name="correo electronico" id="email" placeholder="Correo electronico">
+                    <input type="email" name="email" id="email" placeholder="Email">
                 </div>
 
                 <div>
                     <label for="asunto">Asunto</label>
-                    <input type="text" name="asunto" id="asunto">
+                    <input type="text" name="asunto" id="asunto" placeholder="Asunto">
                 </div>
 
                 <div>
                     <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"
-                        placeholder="Escriba su mensaje aqui..."></textarea>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="5"
+                        placeholder="Escriba su mensaje aquí..."></textarea>
+                </div>
+
+                <div>
+                    <input type="reset">
                 </div>
 
                 <div>
                     <input type="submit">
-                    <input type="reset">
                 </div>
 
             </fieldset>
@@ -130,23 +140,33 @@
 
         <!--ubicacion + horarios + telefonos de contacto de mi restaurante-->
         <div>
-            <h2>Ubicacion</h2>
-            <p>direccion de mi restaurante</p>
+            <i class="fa-solid fa-location-dot"></i>
+            <h2>Ubicación</h2>
+            <p>Montevideo 1500,</p>
+            <p>Ciudad Autónoma de Buenos Aires,</p>
+            <p>Argentina</p>
 
+            <i class="fa-regular fa-clock"></i>
             <h2>Horarios</h2>
-            <p>horarios de apertura y cierre de mi restaurante</p>
+            <p>Lunes a Jueves</p>
+            <p>12:00 - 16:00 / 20:00 - 00:00</p>
+            <p>Viernes a Domingos</p>
+            <p>12:00 - 16:00 / 20:00 - 00:30</p>
 
-            <h2>Telefono</h2>
-            <p>telefono de contacto de mi restaurante</p>
+            <i class="fa-solid fa-phone"></i>
+            <h2>Teléfono</h2>
+            <p>+54 11 4382-6260</p>
+
+            <i class="fa-regular fa-envelope"></i>
+            <h2>Email</h2>
+            <p>info@lamaisonbienaime.com.ar</p>
+
         </div>
 
 
         <!--mapa de ubicacion de mi restaurante-->
         <div>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13154.421311757531!2d-58.5201164!3d-34.4875351!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb040d363f587%3A0x78e513cecbc25f7f!2sHip%C3%B3dromo%20de%20San%20Isidro!5e0!3m2!1ses-419!2sar!4v1679338512748!5m2!1ses-419!2sar"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.4631776316887!2d-58.391340585195714!3d-34.59244746440795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabc7be68097%3A0x5ba06584a8cc22f0!2sMontevideo%201500%2C%20C1021%20CABA!5e0!3m2!1ses-419!2sar!4v1684242792559!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
     </main>
