@@ -1188,13 +1188,70 @@ footer .derechos-footer {
         box-shadow: 0px 0px 5px 0px black;
         -webkit-box-shadow: 0px 0px 5px 0px black;
         -moz-box-shadow: 0px 0px 5px 0px black; }
+    main .formulario-contacto fieldset .input-contacto-reset .boton-contacto1 {
+      padding: 0.6rem; }
+      main .formulario-contacto fieldset .input-contacto-reset .boton-contacto1:hover {
+        background-color: transparent;
+        color: #b47e1e; }
+      main .formulario-contacto fieldset .input-contacto-reset .boton-contacto1:active {
+        background-color: transparent;
+        color: #b47e1e;
+        box-shadow: 0px 0px 5px 0px black;
+        -webkit-box-shadow: 0px 0px 5px 0px black;
+        -moz-box-shadow: 0px 0px 5px 0px black;
+        border-width: 2px; }
+    main .formulario-contacto fieldset .input-contacto-submit .boton-contacto2 {
+      padding: 0.6rem; }
+      main .formulario-contacto fieldset .input-contacto-submit .boton-contacto2:hover {
+        background-color: transparent;
+        color: #b47e1e; }
+      main .formulario-contacto fieldset .input-contacto-submit .boton-contacto2:active {
+        background-color: transparent;
+        color: #b47e1e;
+        box-shadow: 0px 0px 5px 0px black;
+        -webkit-box-shadow: 0px 0px 5px 0px black;
+        -moz-box-shadow: 0px 0px 5px 0px black;
+        border-width: 2px; }
+  main .sections-contacto {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    row-gap: 0rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem; }
+    main .sections-contacto div .h2-contacto {
+      font-size: 1.4rem; }
+    main .sections-contacto .ubicacion-contacto {
+      gap: 1rem; }
+      main .sections-contacto .ubicacion-contacto .icono-ubicacion {
+        font-size: 2rem; }
+      main .sections-contacto .ubicacion-contacto .p-ubicacion-contacto {
+        gap: 0.4rem; }
+    main .sections-contacto .horarios-contacto {
+      gap: 1rem; }
+      main .sections-contacto .horarios-contacto .icono-horarios {
+        font-size: 2rem; }
+      main .sections-contacto .horarios-contacto .p-horarios-contacto {
+        gap: 0.4rem; }
+    main .sections-contacto .telefono-contacto {
+      gap: 1rem;
+      grid-column: 3 / 4;
+      grid-row: 1 / 2; }
+      main .sections-contacto .telefono-contacto .icono-telefono {
+        font-size: 2rem; }
+    main .sections-contacto .email-contacto {
+      gap: 1rem;
+      grid-column: 4 / 5;
+      grid-row: 1 / 2; }
+      main .sections-contacto .email-contacto .icono-email {
+        font-size: 2rem; }
+  main .mapa-contacto {
+    margin-bottom: 4rem; }
   /*estilos del footer de mi sitio web*/
   footer .sections-footer {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     padding-top: 1.5rem;
-    row-gap: 0rem;
-    padding-top: 1.5rem; }
+    row-gap: 0rem; }
     footer .sections-footer .ubicacion-footer {
       gap: 1rem; }
       footer .sections-footer .ubicacion-footer .h3-footer {
