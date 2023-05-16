@@ -802,38 +802,38 @@ footer .derechos-footer {
     grid-template-areas: "nombre apellido" "telefono email" "asunto asunto" "mensaje mensaje" "reset submit"; }
     main .formulario-contacto fieldset .input-contacto1 {
       grid-area: nombre; }
-      main .formulario-contacto fieldset .input-contacto1 .inpunt-nombre {
+      main .formulario-contacto fieldset .input-contacto1 .input-nombre {
         width: 100%;
         margin-left: 2rem;
         font-size: 0.9rem; }
     main .formulario-contacto fieldset .input-contacto2 {
       grid-area: apellido; }
-      main .formulario-contacto fieldset .input-contacto2 .inpunt-apellido {
+      main .formulario-contacto fieldset .input-contacto2 .input-apellido {
         width: 100%;
         margin-right: 2rem;
         font-size: 0.9rem; }
     main .formulario-contacto fieldset .input-contacto3 {
       grid-area: telefono; }
-      main .formulario-contacto fieldset .input-contacto3 .inpunt-telefono {
+      main .formulario-contacto fieldset .input-contacto3 .input-telefono {
         width: 100%;
         margin-left: 2rem;
         font-size: 0.9rem; }
     main .formulario-contacto fieldset .input-contacto4 {
       grid-area: email; }
-      main .formulario-contacto fieldset .input-contacto4 .inpunt-email {
+      main .formulario-contacto fieldset .input-contacto4 .input-email {
         width: 100%;
         margin-right: 2rem;
         font-size: 0.9rem; }
     main .formulario-contacto fieldset .input-contacto5 {
       grid-area: asunto; }
-      main .formulario-contacto fieldset .input-contacto5 .inpunt-asunto {
+      main .formulario-contacto fieldset .input-contacto5 .input-asunto {
         width: 100%;
         margin-left: 2rem;
         margin-right: 2rem;
         font-size: 0.9rem; }
     main .formulario-contacto fieldset .input-contacto6 {
       grid-area: mensaje; }
-      main .formulario-contacto fieldset .input-contacto6 .inpunt-mensaje {
+      main .formulario-contacto fieldset .input-contacto6 .input-mensaje {
         width: 100%;
         margin-left: 2rem;
         margin-right: 2rem;
