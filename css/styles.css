@@ -381,6 +381,44 @@ main .h2-p-reserva {
     font-style: oblique;
     font-weight: 600; }
 
+/*estilos del main de la Seccion Reservas - version mobile*/
+footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
+  display: none; }
+
+main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-reserva fieldset .input-boton-reserva, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem; }
+
+main .main-nosotros .cont-h2-p-nos .h2-secc, main .cont-menu .cont-menu2 .h2-secc {
+  margin-bottom: 0;
+  color: #151515;
+  font-size: 1rem;
+  font-weight: bold; }
+
+footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
+  font-size: 0.9rem;
+  color: #dee0e5;
+  margin-bottom: 0;
+  font-family: 'Playfair Display', serif; }
+
+main .formulario-reserva fieldset .input-reserva1 .nombre-reserva, main .formulario-reserva fieldset .input-reserva2 .apellido-reserva, main .formulario-reserva fieldset .input-reserva3 .telefono-reserva, main .formulario-reserva fieldset .input-reserva4 .email-reserva, main .formulario-reserva fieldset .input-reserva5 .comensales-reserva, main .formulario-reserva fieldset .input-reserva6 .fecha-reserva, main .formulario-reserva fieldset .input-reserva7 .horario-reserva, main .formulario-reserva fieldset .input-reserva8 .mensaje-reserva {
+  font-size: 0.8rem;
+  border: 1px solid #c8ccd5;
+  background-color: whitesmoke;
+  border-radius: 0.1rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #212324;
+  outline: none;
+  padding: 0.4rem; }
+
 /*estilos del footer de mi sitio web - version mobile*/
 footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }

@@ -86,86 +86,104 @@
             <h1 class="titulo-secc">Contacto</h1>
         </div>
 
-        <!--Subtitulo + texto de la seccion Contacto-->
+        <!--subtitulo + texto de la seccion Contacto-->
 
-        <div></div>
-        <h2>Contáctenos</h2>
-        <p>Envíenos su consulta o su comentario y nos comunicaremos a la brevedad. No se toman reservas por este medio.</p>
+        <div class="subtitulos-contacto">
+            <h2 class="h2-contacto">Contáctenos</h2>
+            <p class="p-contacto">Envíenos su consulta o su comentario y nos comunicaremos a la brevedad. No se toman reservas por este medio.</p>
+        </div>
+
 
         <!--formulario de contacto-->
-        <form>
+        <form class="formulario-contacto">
             <fieldset>
-                <legend>formulario de contacto</legend>
-                <div>
+                <legend>Formulario de contacto</legend>
+
+                <div class="input-contacto1">
                     <label for="nombre">Nombre</label>
                     <input type="text" name="nombre" id="nombre" placeholder="Nombre">
                 </div>
 
-                <div>
+                <div class="input-contacto2">
                     <label for="apellido">Apellido</label>
                     <input type="text" name="apellido" id="apellido" placeholder="Apellido">
                 </div>
 
-                <div>
+                <div class="input-contacto3">
                     <label for="telefono">Teléfono</label>
                     <input type="number" name="telefono" id="telefono" placeholder="Teléfono">
                 </div>
 
-                <div>
+                <div class="input-contacto4">
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" placeholder="Email">
                 </div>
 
-                <div>
+                <div class="input-contacto5">
                     <label for="asunto">Asunto</label>
                     <input type="text" name="asunto" id="asunto" placeholder="Asunto">
                 </div>
 
-                <div>
+                <div class="input-contacto6">
                     <label for="mensaje">Mensaje</label>
                     <textarea name="mensaje" id="mensaje" cols="30" rows="5"
                         placeholder="Escriba su mensaje aquí..."></textarea>
                 </div>
 
-                <div>
-                    <input type="reset">
+                <div class="input-contacto-reset">
+                    <input type="reset" class="boton-contacto1">
                 </div>
 
-                <div>
-                    <input type="submit">
+                <div class="input-contacto-submit">
+                    <input type="submit" class="boton-contacto2">
                 </div>
 
             </fieldset>
         </form>
 
-        <!--ubicacion + horarios + telefonos de contacto de mi restaurante-->
-        <div>
-            <i class="fa-solid fa-location-dot"></i>
-            <h2>Ubicación</h2>
-            <p>Montevideo 1500,</p>
-            <p>Ciudad Autónoma de Buenos Aires,</p>
-            <p>Argentina</p>
+        <!--ubicacion + horarios + telefono + email de contacto de mi restaurante-->
+        <div class="sections-contacto">
+            <div class="ubicacion-contacto">
+                <i class="fa-solid fa-location-dot icono-ubicacion"></i>
+                <h2 class="h2-contacto">Ubicación</h2>
+                <div class="p-ubicacion-contacto">
+                    <p class="p-contacto">Montevideo 1500,</p>
+                    <p class="p-contacto">Ciudad Autónoma de Buenos Aires,</p>
+                    <p class="p-contacto">Argentina</p>
+                </div>
+            </div>
 
-            <i class="fa-regular fa-clock"></i>
-            <h2>Horarios</h2>
-            <p>Lunes a Jueves</p>
-            <p>12:00 - 16:00 / 20:00 - 00:00</p>
-            <p>Viernes a Domingos</p>
-            <p>12:00 - 16:00 / 20:00 - 00:30</p>
+            <div class="horarios-contacto">
+                <i class="fa-regular fa-clock icono-horarios"></i>
+                <h2 class="h2-contacto">Horarios</h2>
+                <div class="p-horarios-contacto">
+                    <p class="p-contacto">Lunes a Jueves</p>
+                    <p class="p-contacto">12:00 - 16:00 / 20:00 - 00:00</p>
+                    <p class="p-contacto">Viernes a Domingos</p>
+                    <p class="p-contacto">12:00 - 16:00 / 20:00 - 00:30</p>
+                </div>
+            </div>
 
-            <i class="fa-solid fa-phone"></i>
-            <h2>Teléfono</h2>
-            <p>+54 11 4382-6260</p>
+            <div class="telefono-contacto">
+                <i class="fa-solid fa-phone icono-telefono"></i>
+                <h2 class="h2-contacto">Teléfono</h2>
+                <div class="p-telefono-contacto">
+                    <p class="p-contacto">+54 11 4382-6260</p>
+                </div>
+            </div>
 
-            <i class="fa-regular fa-envelope"></i>
-            <h2>Email</h2>
-            <p>info@lamaisonbienaime.com.ar</p>
-
+            <div class="email-contacto">
+                <i class="fa-regular fa-envelope icono-email"></i>
+                <h2 class="h2-contacto">Email</h2>
+                <div class="p-email-contacto">
+                    <p class="p-contacto">info@lamaisonbienaime.com.ar</p>
+                </div>
+            </div>
         </div>
 
 
         <!--mapa de ubicacion de mi restaurante-->
-        <div>
+        <div class="mapa-contacto">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.4631776316887!2d-58.391340585195714!3d-34.59244746440795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabc7be68097%3A0x5ba06584a8cc22f0!2sMontevideo%201500%2C%20C1021%20CABA!5e0!3m2!1ses-419!2sar!4v1684242792559!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
