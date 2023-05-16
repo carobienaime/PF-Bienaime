@@ -31,8 +31,23 @@ main{
     .formulario-reserva{
         width: 100%;
         fieldset{
-            @include flex3;
             width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(9, auto);
+            grid-template-areas:
+            "nombre nombre"
+            "apellido apellido"
+            "telefono telefono"
+            "email email"
+            "comensal comensal"
+            "fecha fecha"
+            "horario horario"
+            "mensaje mensaje"
+            "reset submit";
+            justify-items: center;
+            align-items: center;
+            gap: 0.8rem;
 
             legend{
                 display: none;
@@ -46,6 +61,7 @@ main{
 
             .input-reserva1{
                 @extend %flex1;
+                grid-area: nombre;
                 width: 100%;
                 .nombre-reserva{
                     width: 95%;
@@ -55,6 +71,7 @@ main{
 
             .input-reserva2{
                 @extend %flex1;
+                grid-area: apellido;
                 width: 100%;
                 .apellido-reserva{
                     width: 95%;
@@ -64,6 +81,7 @@ main{
 
             .input-reserva3{
                 @extend %flex1;
+                grid-area: telefono;
                 width: 100%;
                 .telefono-reserva{
                     width: 95%;
@@ -73,6 +91,7 @@ main{
 
             .input-reserva4{
                 @extend %flex1;
+                grid-area: email;
                 width: 100%;
                 .email-reserva{
                     width: 95%;
@@ -82,6 +101,7 @@ main{
 
             .input-reserva5{
                 @extend %flex1;
+                grid-area: comensal;
                 width: 100%;
                 .comensales-reserva{
                     width: 95%;
@@ -91,6 +111,7 @@ main{
 
             .input-reserva6{
                 @extend %flex1;
+                grid-area: fecha;
                 width: 100%;
                 .fecha-reserva{
                     width: 95%;
@@ -100,6 +121,7 @@ main{
 
             .input-reserva7{
                 @extend %flex1;
+                grid-area: horario;
                 width: 100%;
                 .horario-reserva{
                     width: 95%;
@@ -109,6 +131,7 @@ main{
 
             .input-reserva8{
                 @extend %flex1;
+                grid-area: mensaje;
                 width: 100%;
                 .mensaje-reserva{
                     width: 95%;
@@ -116,18 +139,21 @@ main{
                 }
             }
 
-            .input-boton-reserva{
-                @extend %flex1;
-                gap: 0.8rem;
+            .input-reserva-reset{
+                grid-area: reset;
+                justify-self: end;
                 .boton-reserva1{
                     @include boton-formulario-mobile;
                 }
 
+            }
+
+            .input-reserva-submit{
+                grid-area: submit;
+                justify-self: start;
                 .boton-reserva2{
                     @include boton-formulario-mobile;
                 }
-
-
             }
 
         }
