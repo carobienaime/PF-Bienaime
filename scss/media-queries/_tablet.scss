@@ -146,7 +146,6 @@
         }
 
         .condiciones-reserva{
-            font-size: 0.9rem;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(3, auto);
@@ -157,28 +156,33 @@
                 grid-column: 1 / 2;
                 grid-row: 1 / 2;
                 margin-right: 0.8rem;
+                font-size: 0.9rem;
             }
 
             .condicion2{
                 grid-column: 1 / 2;
                 grid-row: 2 / 3;
                 margin-right: 0.8rem;
+                font-size: 0.9rem;
             }
 
             .condicion3{
                 grid-column: 1 / 2;
                 grid-row: 3 / 4;
                 margin-right: 0.8rem;
+                font-size: 0.9rem;
             }
 
             .condicion4{
                 grid-column: 2 / 3;
                 grid-row: 1 / 2;
+                font-size: 0.9rem;
             }
 
             .condicion5{
                 grid-column: 2 / 3;
                 grid-row: 2 / 3;
+                font-size: 0.9rem;
             }
         }
 
