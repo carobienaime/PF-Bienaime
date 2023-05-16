@@ -6,44 +6,58 @@
 @import "../utilidades/variables";
 
 main{
+    .subtitulo-menu{
+        text-align: center;
+        margin-top: 1.6rem;
+        margin-bottom: 1.6rem;
+
+        .h2-menu{
+            font-size: 1.1rem;
+            font-family: 'Playfair Display', serif;
+            color: $color-txt1;
+            margin-bottom: 0rem;
+        }
+    }
+
     .cont-menu{
+        margin-top: 2rem;
+        margin-bottom: 3rem;
         @include flex2;
-        gap: 2rem;
-        margin-top: 1.1rem;
-        margin-bottom: 1.1rem;
+        gap: 3rem;
 
         .cont-menu2{
             @include flex3;
-            
-            .h2-secc{
-                @extend %h2-secc;
+
+            .h2-menu2{
+
             }
-            
+
             .lista-menu{
                 list-style: none;
                 @include flex2;
                 gap: 1rem;
                 margin-bottom: 0;
                 padding-left: 0;
+
                 .item-lista-menu{
                     @include flex2;
+
                     .nombre-plato{
                         font-weight: 600;
                         margin-bottom: 0;
                         padding: 0.5rem;
                         color: black;
                     }
+
                     .descrip-plato{
                         font-style: oblique;
                         color: black;
                         margin-bottom: 0;
                     }
 
+
                 }
             }
-        }
-        .cont-h2-menu{
-            @include padding-mobile;
         }
 
     }
@@ -53,11 +67,15 @@ main{
         gap: 1rem;
         @include margin-mobile;
         margin-bottom: 1rem;
+
         .img-menu{
             @include img(100%, 100%);
         }
+
     }
 
+
 }
+
 
 

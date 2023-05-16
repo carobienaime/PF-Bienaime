@@ -50,12 +50,6 @@ main .sections-contacto .ubicacion-contacto, main .sections-contacto .horarios-c
   align-items: center;
   gap: 0.8rem; }
 
-main .main-nosotros .cont-h2-p-nos .h2-secc, main .cont-menu .cont-menu2 .h2-secc {
-  margin-bottom: 0;
-  color: #151515;
-  font-size: 1rem;
-  font-weight: bold; }
-
 footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
   font-size: 0.9rem;
   color: #dee0e5;
@@ -134,12 +128,6 @@ main .sections-contacto .ubicacion-contacto, main .sections-contacto .horarios-c
   align-items: center;
   gap: 0.8rem; }
 
-main .main-nosotros .cont-h2-p-nos .h2-secc, main .cont-menu .cont-menu2 .h2-secc {
-  margin-bottom: 0;
-  color: #151515;
-  font-size: 1rem;
-  font-weight: bold; }
-
 footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
   font-size: 0.9rem;
   color: #dee0e5;
@@ -156,14 +144,24 @@ main .formulario-reserva fieldset .input-reserva1 .nombre-reserva, main .formula
   outline: none;
   padding: 0.4rem; }
 
+main .subtitulo-menu {
+  text-align: center;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem; }
+  main .subtitulo-menu .h2-menu {
+    font-size: 1.1rem;
+    font-family: 'Playfair Display', serif;
+    color: #151515;
+    margin-bottom: 0rem; }
+
 main .cont-menu {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  margin-top: 1.1rem;
-  margin-bottom: 1.1rem; }
+  gap: 3rem; }
   main .cont-menu .cont-menu2 {
     display: flex;
     flex-direction: column;
@@ -193,9 +191,6 @@ main .cont-menu {
           font-style: oblique;
           color: black;
           margin-bottom: 0; }
-  main .cont-menu .cont-h2-menu {
-    padding-top: 0.9rem;
-    padding-bottom: 0.9rem; }
 
 main .galeria-menu {
   display: flex;
@@ -225,12 +220,6 @@ main .sections-contacto .ubicacion-contacto, main .sections-contacto .horarios-c
   justify-content: center;
   align-items: center;
   gap: 0.8rem; }
-
-main .main-nosotros .cont-h2-p-nos .h2-secc, main .cont-menu .cont-menu2 .h2-secc {
-  margin-bottom: 0;
-  color: #151515;
-  font-size: 1rem;
-  font-weight: bold; }
 
 footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
   font-size: 0.9rem;
@@ -410,12 +399,6 @@ main .sections-contacto .ubicacion-contacto, main .sections-contacto .horarios-c
   justify-content: center;
   align-items: center;
   gap: 0.8rem; }
-
-main .main-nosotros .cont-h2-p-nos .h2-secc, main .cont-menu .cont-menu2 .h2-secc {
-  margin-bottom: 0;
-  color: #151515;
-  font-size: 1rem;
-  font-weight: bold; }
 
 footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
   font-size: 0.9rem;
@@ -601,12 +584,6 @@ main .sections-contacto .ubicacion-contacto, main .sections-contacto .horarios-c
   justify-content: center;
   align-items: center;
   gap: 0.8rem; }
-
-main .main-nosotros .cont-h2-p-nos .h2-secc, main .cont-menu .cont-menu2 .h2-secc {
-  margin-bottom: 0;
-  color: #151515;
-  font-size: 1rem;
-  font-weight: bold; }
 
 footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
   font-size: 0.9rem;
