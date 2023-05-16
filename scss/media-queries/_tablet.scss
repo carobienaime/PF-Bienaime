@@ -46,7 +46,6 @@
 
         .formulario-reserva{
             fieldset{
-                display: grid;
                 grid-template-columns: repeat(6, 1fr);
                 grid-template-rows: repeat(5, auto);
                 grid-template-areas: 
@@ -54,7 +53,7 @@
                 "telefono telefono telefono email email email"
                 "comensal comensal fecha fecha horario horario"
                 "mensaje mensaje mensaje mensaje mensaje mensaje"
-                ". . boton boton . .";
+                ". . reset submit . .";
                 justify-items: center;
                 align-items: center;
                 
@@ -130,17 +129,20 @@
                     }
                 }
     
-                .input-boton-reserva{
-                    grid-area: boton;
+                .input-reserva-reset{
+                    grid-area: reset;
                     .boton-reserva1{
                         font-size: 0.9rem;
                         padding: 0.5rem;
-                    }
-    
+                    }      
+                }
+
+                .input-reserva-submit{
+                    grid-area: submit;
                     .boton-reserva2{
                         font-size: 0.9rem;
                         padding: 0.5rem;
-                    }        
+                    }
                 }
     
             }

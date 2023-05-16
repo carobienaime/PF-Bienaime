@@ -269,7 +269,7 @@
                     }
                 }
 
-                .input-boton-reserva {
+                .input-reserva-reset {
                     .boton-reserva1 {
                         padding: 0.6rem;
 
@@ -288,8 +288,10 @@
 
                         }
                     }
+                }
 
-                    .boton-reserva2 {
+                .input-reserva-submit{
+                    .boton-reserva2{
                         padding: 0.6rem;
 
                         &:hover{
@@ -304,9 +306,10 @@
                             -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
                             -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
                             border-width: 2px;
-
                         }
+
                     }
+
                 }
             }
         }

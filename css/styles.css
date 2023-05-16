@@ -706,10 +706,9 @@ footer .derechos-footer {
   main .subtitulos-reservas .p-reservas {
     font-size: 0.9rem; }
   main .formulario-reserva fieldset {
-    display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, auto);
-    grid-template-areas: "nombre nombre nombre apellido apellido apellido" "telefono telefono telefono email email email" "comensal comensal fecha fecha horario horario" "mensaje mensaje mensaje mensaje mensaje mensaje" ". . boton boton . .";
+    grid-template-areas: "nombre nombre nombre apellido apellido apellido" "telefono telefono telefono email email email" "comensal comensal fecha fecha horario horario" "mensaje mensaje mensaje mensaje mensaje mensaje" ". . reset submit . .";
     justify-items: center;
     align-items: center; }
     main .formulario-reserva fieldset .input-reserva1 {
@@ -760,12 +759,14 @@ footer .derechos-footer {
         margin-left: 2rem;
         margin-right: 2rem;
         font-size: 0.9rem; }
-    main .formulario-reserva fieldset .input-boton-reserva {
-      grid-area: boton; }
-      main .formulario-reserva fieldset .input-boton-reserva .boton-reserva1 {
+    main .formulario-reserva fieldset .input-reserva-reset {
+      grid-area: reset; }
+      main .formulario-reserva fieldset .input-reserva-reset .boton-reserva1 {
         font-size: 0.9rem;
         padding: 0.5rem; }
-      main .formulario-reserva fieldset .input-boton-reserva .boton-reserva2 {
+    main .formulario-reserva fieldset .input-reserva-submit {
+      grid-area: submit; }
+      main .formulario-reserva fieldset .input-reserva-submit .boton-reserva2 {
         font-size: 0.9rem;
         padding: 0.5rem; }
   main .condiciones-reserva {
@@ -1105,24 +1106,24 @@ footer .derechos-footer {
         box-shadow: 0px 0px 5px 0px black;
         -webkit-box-shadow: 0px 0px 5px 0px black;
         -moz-box-shadow: 0px 0px 5px 0px black; }
-    main .formulario-reserva fieldset .input-boton-reserva .boton-reserva1 {
+    main .formulario-reserva fieldset .input-reserva-reset .boton-reserva1 {
       padding: 0.6rem; }
-      main .formulario-reserva fieldset .input-boton-reserva .boton-reserva1:hover {
+      main .formulario-reserva fieldset .input-reserva-reset .boton-reserva1:hover {
         background-color: transparent;
         color: #b47e1e; }
-      main .formulario-reserva fieldset .input-boton-reserva .boton-reserva1:active {
+      main .formulario-reserva fieldset .input-reserva-reset .boton-reserva1:active {
         background-color: transparent;
         color: #b47e1e;
         box-shadow: 0px 0px 5px 0px black;
         -webkit-box-shadow: 0px 0px 5px 0px black;
         -moz-box-shadow: 0px 0px 5px 0px black;
         border-width: 2px; }
-    main .formulario-reserva fieldset .input-boton-reserva .boton-reserva2 {
+    main .formulario-reserva fieldset .input-reserva-submit .boton-reserva2 {
       padding: 0.6rem; }
-      main .formulario-reserva fieldset .input-boton-reserva .boton-reserva2:hover {
+      main .formulario-reserva fieldset .input-reserva-submit .boton-reserva2:hover {
         background-color: transparent;
         color: #b47e1e; }
-      main .formulario-reserva fieldset .input-boton-reserva .boton-reserva2:active {
+      main .formulario-reserva fieldset .input-reserva-submit .boton-reserva2:active {
         background-color: transparent;
         color: #b47e1e;
         box-shadow: 0px 0px 5px 0px black;
