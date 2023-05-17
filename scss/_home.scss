@@ -7,37 +7,48 @@
 main{
     .titulos-home{
         height: 80vh;
-        @include flex2;      
-        gap: 0.5rem;
-
+        @include flex2;
+        background-image: url("../images/home.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
 
-
         .h1-home{
             text-align: center;
-            font-size: 2.1rem;
+            font-size: 2.4rem;
             margin-bottom: 0rem;
             color: $color-h1;
-            font-family: 'Parisienne', cursive;
+            font-family: 'Great Vibes', cursive;
         }
 
         .h2-home{
             text-align: center;
-            font-size: 1.4rem;
+            font-size: 1rem;
             margin-bottom: 0rem;
             color: $color-h1;
-            font-family: 'Parisienne', cursive;
+            font-family: 'Playfair Display', serif;
         }
     }
 
     .frase-home{
-        text-align: center;
+        @include flex2;
+        margin-top: 2.5rem;
+        margin-bottom: 3rem;
+        @include margin-mobile;
+        gap: 0.4rem;
+
         .p-home{
+            font-size: 0.9rem;
             font-family: 'Open Sans', sans-serif;
             color: $color-txt2;
             margin-bottom: 0rem;
+            font-style: oblique;
+            text-align: center;
+        }
+
+        .p-home2{
+            color: $color-txt3;
+            font-weight: 600;
         }
     }
 
