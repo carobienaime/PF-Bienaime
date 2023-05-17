@@ -99,7 +99,7 @@ main .main-nosotros1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem; }
+    gap: 0.5rem; }
     main .main-nosotros1 .cont-img1-nos .img-nosotros {
       width: 100%;
       height: 100%; }
@@ -107,13 +107,14 @@ main .main-nosotros1 {
       font-size: 0.8rem;
       font-family: 'Open Sans', sans-serif;
       color: #212324;
-      margin-bottom: 0rem; }
+      margin-bottom: 0rem;
+      text-align: center; }
   main .main-nosotros1 .cont-img2-nos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem; }
+    gap: 0.5rem; }
     main .main-nosotros1 .cont-img2-nos .img-nosotros {
       width: 100%;
       height: 100%; }
@@ -121,7 +122,8 @@ main .main-nosotros1 {
       font-size: 0.8rem;
       font-family: 'Open Sans', sans-serif;
       color: #212324;
-      margin-bottom: 0rem; }
+      margin-bottom: 0rem;
+      text-align: center; }
 
 main .main-nosotros2 {
   display: none; }
