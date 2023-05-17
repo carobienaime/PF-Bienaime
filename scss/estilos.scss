@@ -6,13 +6,13 @@
 }
 
 //imports
-@import "html-generales/header";
-@import "html-generales/h1";
-@import "html-main/home";
-@import "html-main/nosotros";
-@import "html-main/menu";
-@import "html-main/reservas";
-@import "html-main/contacto";
-@import "html-generales/footer";
+@import "generales/header";
+@import "generales/h1";
+@import "home";
+@import "main-secciones/nosotros";
+@import "main-secciones/menu";
+@import "main-secciones/reservas";
+@import "main-secciones/contacto";
+@import "generales/footer";
 @import "media-queries/tablet";
 @import "media-queries/desktop";
