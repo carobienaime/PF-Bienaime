@@ -66,51 +66,65 @@ main .formulario-reserva fieldset .input-reserva1 .nombre-reserva, main .formula
   outline: none;
   padding: 0.4rem; }
 
-main .main-nosotros {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, auto);
-  row-gap: 1.1rem;
-  margin-bottom: 1.6rem; }
-  main .main-nosotros .cont-h2-p-nos {
-    grid-row: 1 / 2;
-    gap: 1rem;
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
+main .main-nosotros1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 1.6rem;
+  margin-bottom: 3rem;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem; }
+  main .main-nosotros1 .cont-h2-p-nos {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
-    main .main-nosotros .cont-h2-p-nos .h2-secc-nos {
-      margin-top: 1.1rem;
-      padding-top: 0.5rem;
-      padding-bottom: 1rem; }
-    main .main-nosotros .cont-h2-p-nos .p-nosotros {
+    align-items: center;
+    gap: 1rem; }
+    main .main-nosotros1 .cont-h2-p-nos .h2-nosotros {
+      font-size: 1.2rem;
+      font-family: 'Playfair Display', serif;
+      color: #151515;
+      margin-bottom: 0rem;
+      padding-bottom: 0.6rem; }
+    main .main-nosotros1 .cont-h2-p-nos .p-nosotros {
       font-size: 0.9rem;
-      text-align: justify;
-      margin-bottom: 0; }
-  main .main-nosotros .cont-img1-nos {
-    grid-row: 2 / 3;
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
+      font-family: 'Open Sans', sans-serif;
+      color: #212324;
+      margin-bottom: 0rem;
+      text-align: justify; }
+  main .main-nosotros1 .cont-img1-nos {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
-    main .main-nosotros .cont-img1-nos .img-nosotros {
+    align-items: center;
+    gap: 1rem; }
+    main .main-nosotros1 .cont-img1-nos .img-nosotros {
       width: 100%;
       height: 100%; }
-  main .main-nosotros .cont-img2-nos {
-    grid-row: 3 / 4;
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
+    main .main-nosotros1 .cont-img1-nos .epigrafe-img {
+      font-size: 0.8rem;
+      font-family: 'Open Sans', sans-serif;
+      color: #212324;
+      margin-bottom: 0rem; }
+  main .main-nosotros1 .cont-img2-nos {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
-    main .main-nosotros .cont-img2-nos .img-nosotros {
+    align-items: center;
+    gap: 1rem; }
+    main .main-nosotros1 .cont-img2-nos .img-nosotros {
       width: 100%;
       height: 100%; }
+    main .main-nosotros1 .cont-img2-nos .epigrafe-img {
+      font-size: 0.8rem;
+      font-family: 'Open Sans', sans-serif;
+      color: #212324;
+      margin-bottom: 0rem; }
+
+main .main-nosotros2 {
+  display: none; }
 
 /*estilos del main de la Seccion Menu - version mobile*/
 main .galeria-menu .entrada2, main .galeria-menu .principal2, main .galeria-menu .guarnicion2, main .galeria-menu .postre2, footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
@@ -149,7 +163,7 @@ main .subtitulo-menu {
   margin-top: 1.6rem;
   margin-bottom: 1.6rem; }
   main .subtitulo-menu .h2-menu {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: 'Playfair Display', serif;
     color: #151515;
     margin-bottom: 0rem; }
@@ -173,7 +187,7 @@ main .cont-menu {
     main .cont-menu .cont-menu2 .h2-menu2 {
       font-size: 1.1rem;
       font-family: 'Playfair Display', serif;
-      color: #151515;
+      color: #b47e1e;
       margin-bottom: 0rem;
       font-weight: 600; }
     main .cont-menu .cont-menu2 .lista-menu {
@@ -256,7 +270,7 @@ main .subtitulos-reservas {
   margin-top: 1.6rem;
   margin-bottom: 1.6rem; }
   main .subtitulos-reservas .h2-reservas {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: 'Playfair Display', serif;
     color: #151515;
     margin-bottom: 0rem;
@@ -385,7 +399,7 @@ main .h2-p-reserva {
   margin-left: 1.2rem;
   margin-right: 1.2rem; }
   main .h2-p-reserva .h2-telefono {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: 'Playfair Display', serif;
     color: #151515;
     margin-bottom: 0rem;
@@ -435,7 +449,7 @@ main .subtitulos-contacto {
   margin-top: 1.6rem;
   margin-bottom: 1.6rem; }
   main .subtitulos-contacto .h2-contacto {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: 'Playfair Display', serif;
     color: #151515;
     margin-bottom: 0rem;
@@ -693,7 +707,7 @@ footer .derechos-footer {
     font-size: 1.4rem; }
   /*estilos del main de la Seccion Menu*/
   main .subtitulo-menu .h2-menu {
-    font-size: 1.3rem; }
+    font-size: 1.4rem; }
   main .cont-menu {
     margin-top: 2.5rem;
     margin-bottom: 3.5rem;
@@ -747,7 +761,7 @@ footer .derechos-footer {
       display: block; }
   /*estilos del main de la Seccion Reservas*/
   main .subtitulos-reservas .h2-reservas {
-    font-size: 1.3rem; }
+    font-size: 1.4rem; }
   main .subtitulos-reservas .p-reservas {
     font-size: 0.9rem; }
   main .formulario-reserva fieldset {
@@ -849,12 +863,12 @@ footer .derechos-footer {
     margin-left: 2rem;
     margin-right: 2rem; }
     main .h2-p-reserva .h2-telefono {
-      font-size: 1.3rem; }
+      font-size: 1.4rem; }
     main .h2-p-reserva .p-telefono {
       font-size: 1rem; }
   /*estilos del main de la Seccion Contacto*/
   main .subtitulos-contacto .h2-contacto {
-    font-size: 1.3rem; }
+    font-size: 1.4rem; }
   main .subtitulos-contacto .p-contacto {
     font-size: 0.9rem; }
   main .formulario-contacto fieldset {
@@ -1069,7 +1083,7 @@ footer .derechos-footer {
     margin-top: 3rem;
     margin-bottom: 3rem; }
     main .subtitulo-menu .h2-menu {
-      font-size: 1.4rem; }
+      font-size: 1.5rem; }
   main .cont-menu {
     margin-top: 3rem;
     margin-bottom: 4rem;
@@ -1095,7 +1109,7 @@ footer .derechos-footer {
     margin-top: 3rem;
     margin-bottom: 3rem; }
     main .subtitulos-reservas .h2-reservas {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
       padding-bottom: 1rem; }
   main .formulario-reserva fieldset {
     gap: 1rem; }
@@ -1196,7 +1210,7 @@ footer .derechos-footer {
     margin-left: 10rem;
     margin-right: 10rem; }
     main .h2-p-reserva .h2-telefono {
-      font-size: 1.4rem; }
+      font-size: 1.5rem; }
     main .h2-p-reserva .p-telefono {
       font-size: 1.1rem; }
   /*estilos del main de la Seccion Contacto*/
@@ -1204,7 +1218,7 @@ footer .derechos-footer {
     margin-top: 3rem;
     margin-bottom: 3rem; }
     main .subtitulos-contacto .h2-contacto {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
       padding-bottom: 1rem; }
   main .formulario-contacto fieldset {
     gap: 1rem; }
