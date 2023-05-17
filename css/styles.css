@@ -1078,7 +1078,7 @@ footer .derechos-footer {
     grid-template-rows: repeat(2, auto);
     justify-items: center;
     align-items: start;
-    column-gap: 1.5rem;
+    column-gap: 0rem;
     row-gap: 1.5rem;
     margin-left: 4.5rem;
     margin-right: 2.5rem;
@@ -1087,7 +1087,8 @@ footer .derechos-footer {
     main .main-nosotros1 .cont-h2-p-nos {
       grid-column: 1 / 2;
       grid-row: 1 / span 3;
-      gap: 1.5rem; }
+      gap: 1.5rem;
+      padding-right: 2rem; }
       main .main-nosotros1 .cont-h2-p-nos .h2-nosotros {
         font-size: 1.5rem;
         padding-bottom: 1rem; }
@@ -1111,13 +1112,14 @@ footer .derechos-footer {
     align-items: start;
     column-gap: 0rem;
     row-gap: 0rem;
-    margin-left: 2.2rem;
-    margin-right: 2.2rem;
+    margin-top: 4.5rem;
+    margin-left: 4.5rem;
+    margin-right: 2.5rem;
     margin-bottom: 5rem; }
     main .main-nosotros2 .cont-h2-p-nos {
       grid-column: 1 / 2;
-      margin-left: 2.2rem;
-      gap: 1.5rem; }
+      gap: 1.5rem;
+      padding-right: 2rem; }
       main .main-nosotros2 .cont-h2-p-nos .h2-nosotros {
         font-size: 1.5rem; }
       main .main-nosotros2 .cont-h2-p-nos .nombre-chef {
