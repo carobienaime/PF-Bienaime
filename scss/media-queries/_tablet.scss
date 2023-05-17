@@ -33,6 +33,32 @@
         }
     }
 
+    /*estilos del main de la Seccion Home*/
+
+    main{
+        .titulos-home{
+            height: 85vh;
+
+            .h1-home{
+                font-size: 3.8rem;
+            }
+
+            .h2-home{
+                font-size: 1.4rem;
+            }
+
+        }
+
+        .frase-home{
+            margin-left: 5rem;
+            margin-right: 5rem;
+            gap: 0.5rem;
+        }
+
+    }
+
+
+
     /*estilos del main de la Seccion Nosotros*/
 
     main{

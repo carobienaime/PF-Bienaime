@@ -722,6 +722,17 @@ footer .derechos-footer {
   /*estilos del titulo principal de las secciones*/
   main .cont-secc .titulo-secc {
     font-size: 1.5rem; }
+  /*estilos del main de la Seccion Home*/
+  main .titulos-home {
+    height: 85vh; }
+    main .titulos-home .h1-home {
+      font-size: 3.8rem; }
+    main .titulos-home .h2-home {
+      font-size: 1.4rem; }
+  main .frase-home {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    gap: 0.5rem; }
   /*estilos del main de la Seccion Nosotros*/
   main .main-nosotros1 {
     margin-bottom: 3.5rem;
@@ -1117,6 +1128,7 @@ footer .derechos-footer {
     padding-bottom: 1rem; }
     main .cont-secc .titulo-secc {
       font-size: 1.9rem; }
+  /*estilos del main de la Seccion Home*/
   /*estilos del main de la Seccion Nosotros*/
   main .main-nosotros1 {
     display: grid;
