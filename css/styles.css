@@ -42,7 +42,7 @@ main .titulos-home {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  background-image: url("../../images/home2.jpeg");
+  background-image: url("../../images/home1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
