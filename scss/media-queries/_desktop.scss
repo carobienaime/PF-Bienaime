@@ -49,30 +49,27 @@
 
     /*estilos del main de la Seccion Nosotros*/
     main {
-        .main-nosotros {
+        .main-nosotros1 {
+            display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, auto);
-            column-gap: 2.2rem;
+            justify-items: center;
+            align-items: start;
+            column-gap: 1.5rem;
             row-gap: 1.5rem;
+            margin-left: 4.5rem;
+            margin-right: 2.5rem;
+            margin-top: 4rem;
+            margin-bottom: 4rem;
 
             .cont-h2-p-nos {
                 grid-column: 1 / 2;
                 grid-row: 1 / span 3;
-                margin-right: 0;
-                margin-left: 2.2rem;
-                justify-content: flex-start;
+                gap: 1.5rem;
 
-                .h2-secc {
+                .h2-nosotros {
                     font-size: 1.5rem;
-                }
-
-                .h2-secc-nos {
-                    margin-top: 3.5rem;
-                    padding-bottom: 2rem;
-                }
-
-                .p-nosotros {
-                    font-size: 1rem;
+                    padding-bottom: 1rem;
                 }
 
             }
@@ -80,18 +77,66 @@
             .cont-img1-nos {
                 grid-column: 2 / 3;
                 grid-row: 1 / 2;
-                margin-left: 0;
-                margin-right: 2.2rem;
-                margin-top: 4rem;
+
+
+                .img-nosotros{
+                    @include img(90%, 90%);
+                }
             }
 
-            .cont-img2-nos {
+            .cont-img2-nos{
                 grid-column: 2 / 3;
                 grid-row: 2 / 3;
-                margin-left: 0;
-                margin-right: 2.2rem;
+
+                .img-nosotros{
+                    @include img(90%, 90%);
+                }
             }
         }
+
+        .main-nosotros2{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            justify-items: center;
+            align-items: start;
+            column-gap: 0rem;
+            row-gap: 0rem;
+            margin-left: 2.2rem;
+            margin-right: 2.2rem;
+            margin-bottom: 5rem;
+
+            .cont-h2-p-nos{
+                grid-column: 1 / 2;
+                margin-left: 2.2rem;
+                gap: 1.5rem;
+
+                .h2-nosotros{
+                    font-size: 1.5rem;
+                }
+
+                .nombre-chef{
+                    font-size: 1.4rem;
+                    padding-bottom: 1rem;
+                }
+
+            }
+
+            .cont-img3-nos{
+                grid-column: 2 / 3;
+
+                .img-nosotros{
+                    @include img(90%, 90%);
+                }
+            }
+
+            
+        }
+
+
+
+
+
     }
 
     /*estilos del main de la Seccion Menu*/

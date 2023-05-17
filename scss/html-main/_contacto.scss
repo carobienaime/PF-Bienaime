@@ -1,4 +1,4 @@
-/*estilos del main de la Seccion Reservas - version mobile*/
+/*estilos del main de la Seccion Contacto - version mobile*/
 
 //imports
 @import "../utilidades/extend";
@@ -173,7 +173,7 @@ main{
             @extend %flex3;
 
             .icono-ubicacion{
-                color: #b47e1e;
+                color: $color-txt3;
                 font-size: 1.8rem;
             }
 
@@ -188,7 +188,7 @@ main{
             @extend %flex3;
 
             .icono-horarios{
-                color: #b47e1e;
+                color: $color-txt3;
                 font-size: 1.8rem;
             }
 
@@ -202,7 +202,7 @@ main{
             @extend %flex3;
 
             .icono-telefono{
-                color: #b47e1e;
+                color: $color-txt3;
                 font-size: 1.8rem;
             }
             .p-telefono-contacto{
@@ -215,7 +215,7 @@ main{
             @extend %flex3;
 
             .icono-email{
-                color: #b47e1e;
+                color: $color-txt3;
                 font-size: 1.8rem;
             }
 

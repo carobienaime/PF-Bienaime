@@ -35,37 +35,6 @@ main .cont-secc {
     font-weight: 600; }
 
 /*estilos del main de la Seccion Nosotros - version mobile*/
-main .galeria-menu .entrada2, main .galeria-menu .principal2, main .galeria-menu .guarnicion2, main .galeria-menu .postre2, footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
-  display: none; }
-
-main .formulario-reserva fieldset .input-reserva1, main .formulario-reserva fieldset .input-reserva2, main .formulario-reserva fieldset .input-reserva3, main .formulario-reserva fieldset .input-reserva4, main .formulario-reserva fieldset .input-reserva5, main .formulario-reserva fieldset .input-reserva6, main .formulario-reserva fieldset .input-reserva7, main .formulario-reserva fieldset .input-reserva8, main .formulario-contacto fieldset .input-contacto1, main .formulario-contacto fieldset .input-contacto2, main .formulario-contacto fieldset .input-contacto3, main .formulario-contacto fieldset .input-contacto4, main .formulario-contacto fieldset .input-contacto5, main .formulario-contacto fieldset .input-contacto6, footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .redes-footer .iconos-redes a, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-main .sections-contacto .ubicacion-contacto, main .sections-contacto .horarios-contacto, main .sections-contacto .telefono-contacto, main .sections-contacto .email-contacto, footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.8rem; }
-
-footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
-  font-size: 0.9rem;
-  color: #dee0e5;
-  margin-bottom: 0;
-  font-family: 'Playfair Display', serif; }
-
-main .formulario-reserva fieldset .input-reserva1 .nombre-reserva, main .formulario-reserva fieldset .input-reserva2 .apellido-reserva, main .formulario-reserva fieldset .input-reserva3 .telefono-reserva, main .formulario-reserva fieldset .input-reserva4 .email-reserva, main .formulario-reserva fieldset .input-reserva5 .comensales-reserva, main .formulario-reserva fieldset .input-reserva6 .fecha-reserva, main .formulario-reserva fieldset .input-reserva7 .horario-reserva, main .formulario-reserva fieldset .input-reserva8 .mensaje-reserva, main .formulario-contacto fieldset .input-contacto1 .input-nombre, main .formulario-contacto fieldset .input-contacto2 .input-apellido, main .formulario-contacto fieldset .input-contacto3 .input-telefono, main .formulario-contacto fieldset .input-contacto4 .input-email, main .formulario-contacto fieldset .input-contacto5 .input-asunto, main .formulario-contacto fieldset .input-contacto6 .input-mensaje {
-  font-size: 0.8rem;
-  border: 1px solid #c8ccd5;
-  background-color: whitesmoke;
-  border-radius: 0.1rem;
-  font-family: 'Open Sans', sans-serif;
-  color: #212324;
-  outline: none;
-  padding: 0.4rem; }
-
 main .main-nosotros1 {
   display: flex;
   flex-direction: column;
@@ -414,7 +383,7 @@ main .h2-p-reserva {
     font-style: oblique;
     font-weight: 600; }
 
-/*estilos del main de la Seccion Reservas - version mobile*/
+/*estilos del main de la Seccion Contacto - version mobile*/
 main .galeria-menu .entrada2, main .galeria-menu .principal2, main .galeria-menu .guarnicion2, main .galeria-menu .postre2, footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
   display: none; }
 
@@ -706,7 +675,59 @@ footer .derechos-footer {
     font-size: 0.9rem; }
   /*estilos del titulo principal de las secciones*/
   main .cont-secc .titulo-secc {
-    font-size: 1.4rem; }
+    font-size: 1.5rem; }
+  /*estilos del main de la Seccion Nosotros*/
+  main .main-nosotros1 {
+    margin-bottom: 3.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem; }
+    main .main-nosotros1 .cont-h2-p-nos .h2-nosotros {
+      font-size: 1.4rem; }
+    main .main-nosotros1 .cont-img1-nos .img-nosotros {
+      width: 85%;
+      height: 85%; }
+    main .main-nosotros1 .cont-img2-nos .img-nosotros {
+      width: 85%;
+      height: 85%; }
+  main .main-nosotros2 {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 1.6rem;
+    margin-bottom: 3.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem; }
+    main .main-nosotros2 .cont-h2-p-nos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem; }
+      main .main-nosotros2 .cont-h2-p-nos .h2-nosotros {
+        font-size: 1.4rem;
+        font-family: 'Playfair Display', serif;
+        color: #151515;
+        margin-bottom: 0rem; }
+      main .main-nosotros2 .cont-h2-p-nos .nombre-chef {
+        font-size: 1.3rem;
+        color: #b47e1e;
+        padding-bottom: 0.6rem; }
+      main .main-nosotros2 .cont-h2-p-nos .p-nosotros {
+        font-size: 0.9rem;
+        font-family: 'Open Sans', sans-serif;
+        color: #212324;
+        margin-bottom: 0rem;
+        text-align: justify; }
+    main .main-nosotros2 .cont-img3-nos {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main .main-nosotros2 .cont-img3-nos .img-nosotros {
+        width: 85%;
+        height: 85%; }
   /*estilos del main de la Seccion Menu*/
   main .subtitulo-menu .h2-menu {
     font-size: 1.4rem; }
@@ -1051,35 +1072,62 @@ footer .derechos-footer {
     main .cont-secc .titulo-secc {
       font-size: 1.9rem; }
   /*estilos del main de la Seccion Nosotros*/
-  main .main-nosotros {
+  main .main-nosotros1 {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
-    column-gap: 2.2rem;
-    row-gap: 1.5rem; }
-    main .main-nosotros .cont-h2-p-nos {
+    justify-items: center;
+    align-items: start;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    margin-left: 4.5rem;
+    margin-right: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem; }
+    main .main-nosotros1 .cont-h2-p-nos {
       grid-column: 1 / 2;
       grid-row: 1 / span 3;
-      margin-right: 0;
+      gap: 1.5rem; }
+      main .main-nosotros1 .cont-h2-p-nos .h2-nosotros {
+        font-size: 1.5rem;
+        padding-bottom: 1rem; }
+    main .main-nosotros1 .cont-img1-nos {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2; }
+      main .main-nosotros1 .cont-img1-nos .img-nosotros {
+        width: 90%;
+        height: 90%; }
+    main .main-nosotros1 .cont-img2-nos {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3; }
+      main .main-nosotros1 .cont-img2-nos .img-nosotros {
+        width: 90%;
+        height: 90%; }
+  main .main-nosotros2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: start;
+    column-gap: 0rem;
+    row-gap: 0rem;
+    margin-left: 2.2rem;
+    margin-right: 2.2rem;
+    margin-bottom: 5rem; }
+    main .main-nosotros2 .cont-h2-p-nos {
+      grid-column: 1 / 2;
       margin-left: 2.2rem;
-      justify-content: flex-start; }
-      main .main-nosotros .cont-h2-p-nos .h2-secc {
+      gap: 1.5rem; }
+      main .main-nosotros2 .cont-h2-p-nos .h2-nosotros {
         font-size: 1.5rem; }
-      main .main-nosotros .cont-h2-p-nos .h2-secc-nos {
-        margin-top: 3.5rem;
-        padding-bottom: 2rem; }
-      main .main-nosotros .cont-h2-p-nos .p-nosotros {
-        font-size: 1rem; }
-    main .main-nosotros .cont-img1-nos {
-      grid-column: 2 / 3;
-      grid-row: 1 / 2;
-      margin-left: 0;
-      margin-right: 2.2rem;
-      margin-top: 4rem; }
-    main .main-nosotros .cont-img2-nos {
-      grid-column: 2 / 3;
-      grid-row: 2 / 3;
-      margin-left: 0;
-      margin-right: 2.2rem; }
+      main .main-nosotros2 .cont-h2-p-nos .nombre-chef {
+        font-size: 1.4rem;
+        padding-bottom: 1rem; }
+    main .main-nosotros2 .cont-img3-nos {
+      grid-column: 2 / 3; }
+      main .main-nosotros2 .cont-img3-nos .img-nosotros {
+        width: 90%;
+        height: 90%; }
   /*estilos del main de la Seccion Menu*/
   main .subtitulo-menu {
     margin-top: 3rem;
