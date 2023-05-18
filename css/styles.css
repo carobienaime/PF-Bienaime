@@ -1057,11 +1057,10 @@ footer .derechos-footer {
       align-items: center;
       gap: 0.8rem; }
       footer .sections-footer .ubicacion-footer .h3-footer {
-        font-size: 0.9rem;
+        font-size: 1rem;
         color: #dee0e5;
         margin-bottom: 0;
-        font-family: 'Playfair Display', serif;
-        font-size: 1rem; }
+        font-family: 'Playfair Display', serif; }
       footer .sections-footer .ubicacion-footer .p-ubicacion {
         display: flex;
         flex-direction: column;
@@ -1082,11 +1081,10 @@ footer .derechos-footer {
       align-items: center;
       gap: 0.8rem; }
       footer .sections-footer .contacto-footer .h3-footer {
-        font-size: 0.9rem;
+        font-size: 1rem;
         color: #dee0e5;
         margin-bottom: 0;
-        font-family: 'Playfair Display', serif;
-        font-size: 1rem; }
+        font-family: 'Playfair Display', serif; }
       footer .sections-footer .contacto-footer .p-contacto {
         display: flex;
         flex-direction: column;

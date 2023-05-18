@@ -596,8 +596,10 @@
                 @include flex3;
 
                 .h3-footer {
-                    @include h3-footer;
                     font-size: 1rem;
+                    color: $color-h3-footer;
+                    margin-bottom: 0;
+                    font-family: 'Playfair Display', serif;
                 }
 
                 .p-ubicacion {
@@ -619,8 +621,10 @@
                 @include flex3;
 
                 .h3-footer {
-                    @include h3-footer;
                     font-size: 1rem;
+                    color: $color-h3-footer;
+                    margin-bottom: 0;
+                    font-family: 'Playfair Display', serif;
                 }
 
                 .p-contacto {
