@@ -1,5 +1,6 @@
-/*estilos para version tablet horizontal y desktop*/
+/*estilos para version desktop*/
 
+//imports
 @import "../utilidades/variables";
 @import "../utilidades/mixin";
 
@@ -47,7 +48,7 @@
         }
     }
 
-    /*estilos del main de la Seccion Home*/
+    /*estilos del main del Home*/
 
     main{
         .titulos-home{

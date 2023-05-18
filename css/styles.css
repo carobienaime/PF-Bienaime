@@ -34,7 +34,7 @@ main .cont-secc {
     font-family: 'Playfair Display', serif;
     font-weight: 600; }
 
-/*estilos del main de la Seccion Home - version mobile*/
+/*estilos del main del Home - version mobile*/
 main .titulos-home {
   height: 80vh;
   display: flex;
@@ -714,7 +714,7 @@ footer .derechos-footer {
     color: #c8ccd5;
     font-size: 0.8rem; }
 
-/*estilos para version tablet vertical*/
+/*estilos para version tablet*/
 @media screen and (min-width: 576px) {
   /*estilos del header de mi sitio web*/
   header nav div div ul li .font-nav {
@@ -722,7 +722,7 @@ footer .derechos-footer {
   /*estilos del titulo principal de las secciones*/
   main .cont-secc .titulo-secc {
     font-size: 1.5rem; }
-  /*estilos del main de la Seccion Home*/
+  /*estilos del main del Home*/
   main .titulos-home {
     height: 85vh; }
     main .titulos-home .h1-home {
@@ -1110,7 +1110,7 @@ footer .derechos-footer {
       footer .sections-footer .newsletter-footer form fieldset .input-newsletter .input-newsletter2 {
         width: 58%; } }
 
-/*estilos para version tablet horizontal y desktop*/
+/*estilos para version desktop*/
 @media screen and (min-width: 992px) {
   /*estilos del header de mi sitio web*/
   header nav div a img {
@@ -1128,7 +1128,7 @@ footer .derechos-footer {
     padding-bottom: 1rem; }
     main .cont-secc .titulo-secc {
       font-size: 1.9rem; }
-  /*estilos del main de la Seccion Home*/
+  /*estilos del main del Home*/
   main .titulos-home {
     height: 95vh; }
     main .titulos-home .h1-home {
