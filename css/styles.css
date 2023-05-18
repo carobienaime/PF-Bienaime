@@ -685,7 +685,7 @@ footer .sections-footer {
           footer .sections-footer .newsletter-footer form fieldset .input-newsletter .input-newsletter2 {
             text-align: center;
             font-size: 0.8rem;
-            width: 60%;
+            width: 56%;
             border-color: transparent;
             background-color: whitesmoke;
             border-radius: 0.1rem;
@@ -1454,22 +1454,16 @@ footer .derechos-footer {
     row-gap: 0rem; }
     footer .sections-footer .ubicacion-footer {
       gap: 1rem; }
-      footer .sections-footer .ubicacion-footer .h3-footer {
-        font-size: 1rem; }
       footer .sections-footer .ubicacion-footer .p-ubicacion .p-secc-footer {
         font-size: 0.9rem; }
     footer .sections-footer .contacto-footer {
       gap: 1rem; }
-      footer .sections-footer .contacto-footer .h3-footer {
-        font-size: 1rem; }
       footer .sections-footer .contacto-footer .p-contacto .p-secc-footer {
         font-size: 0.9rem; }
     footer .sections-footer .redes-footer {
       grid-column: 3 / 4;
       grid-row: 1 / 2;
       gap: 1rem; }
-      footer .sections-footer .redes-footer .h3-footer {
-        font-size: 1rem; }
       footer .sections-footer .redes-footer .iconos-redes a .icono-red1 {
         font-size: 1.8rem; }
         footer .sections-footer .redes-footer .iconos-redes a .icono-red1:hover {
@@ -1479,15 +1473,13 @@ footer .derechos-footer {
         font-size: 1.8rem; }
         footer .sections-footer .redes-footer .iconos-redes a .icono-red2:hover {
           transform: scale(1.1);
-          transition: transform 1s ease; }
+          transition: transform 0.5s; }
     footer .sections-footer .newsletter-footer {
       grid-column: 4 / 5;
       grid-row: 1 / 2;
       gap: 1rem; }
-      footer .sections-footer .newsletter-footer .h3-footer {
-        font-size: 1rem; }
       footer .sections-footer .newsletter-footer form fieldset .input-newsletter .input-newsletter2 {
-        width: 80%;
+        width: 75%;
         font-size: 0.9rem; }
         footer .sections-footer .newsletter-footer form fieldset .input-newsletter .input-newsletter2:focus {
           box-shadow: 0px 0px 10px 0px black;
